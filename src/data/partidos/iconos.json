@@ -1,0 +1,227 @@
+{
+  "_nota": "Generado por scripts/import-iconos.ts. Favicons descargados sin modificar de la web oficial de cada partido; son propiedad de sus titulares y se usan solo para identificar a cada candidatura junto a sus siglas.",
+  "fechaDescarga": "2026-10-05",
+  "iconos": {
+    "pp": {
+      "archivo": "/partidos/pp.ico",
+      "origen": "https://www.pp.es/wp-content/themes/pp/assets/img/favicon.ico",
+      "tipo": "ico",
+      "bytes": 1150,
+      "sha256": "7449681b8344d7340cced60c568d6a20738c063a19f355769d6103add4f926cc"
+    },
+    "psoe": {
+      "archivo": "/partidos/psoe.bmp",
+      "origen": "https://www.psoe.es/favicon.ico",
+      "tipo": "bmp",
+      "bytes": 822,
+      "sha256": "aedd091ef1d8130da6afedaaddf6708cf51fe4d3f1f2fe39b0f0de4699779245"
+    },
+    "vox": {
+      "archivo": "/partidos/vox.png",
+      "origen": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://voxespana.es&size=128",
+      "tipo": "png",
+      "bytes": 1272,
+      "sha256": "e3beb9536d8020c212516effdddd1de8a6d4e67cd66ee70b637b9af32aa513b1",
+      "nota": "La web bloquea las descargas automáticas y su /favicon.ico es el icono genérico del servidor; se usa la copia del favicon que guarda el servicio público de Google."
+    },
+    "sumar": {
+      "archivo": "/partidos/sumar.png",
+      "origen": "https://movimientosumar.es/wp-content/uploads/2023/03/cropped-favicon-1-300x300.png",
+      "tipo": "png",
+      "bytes": 13854,
+      "sha256": "df6ff21a241d1b603eb958e4ee18e496ee8327c8f0baf0e0f00ec639c0d2909a"
+    },
+    "erc": {
+      "archivo": "/partidos/erc.png",
+      "origen": "https://www.esquerra.cat/wp-content/uploads/erc-ico.png",
+      "tipo": "png",
+      "bytes": 3843,
+      "sha256": "5f8c4c5f51b31360a50eda24935b97e53d60ff0fea6c5b40edf253641b4303d9"
+    },
+    "junts": {
+      "archivo": "/partidos/junts.webp",
+      "origen": "https://junts.cat/wp-content/uploads/2026/07/cropped-Logotip_RGB_Junts-scaled-1-192x192.webp",
+      "tipo": "webp",
+      "bytes": 2714,
+      "sha256": "0b8b0af1b00bceb1895e7411d9a1093b4e9ca95c2e628916688d23fc05854365"
+    },
+    "bildu": {
+      "archivo": "/partidos/bildu.png",
+      "origen": "https://ehbildu.eus/logo_eposta.png",
+      "tipo": "png",
+      "bytes": 5498,
+      "sha256": "d0a361228dd2039cc9da0644d031788ee7fc06c0bbea5d23e8a60c1bfaca02e6"
+    },
+    "pnv": {
+      "archivo": "/partidos/pnv.png",
+      "origen": "https://www.eaj-pnv.eus/img/favicon-2025.png",
+      "tipo": "png",
+      "bytes": 32722,
+      "sha256": "4dbf6c53f55ab5c73b37e2a1a2c35468341721a80ccdce22659cadae4fa6d1e4"
+    },
+    "bng": {
+      "archivo": "/partidos/bng.png",
+      "origen": "https://www.bng.gal/asset/thumbnail,96,96/media/bnggaliza/images/2021/07/20/2021072018022443378.png",
+      "tipo": "png",
+      "bytes": 2249,
+      "sha256": "4bde4f785a9fea767bbbe8562bdb61187f6ee8571acb8e1812b7365160c8fc24"
+    },
+    "cc": {
+      "archivo": "/partidos/cc.png",
+      "origen": "https://coalicioncanaria.org/wp-content/uploads/2021/05/cropped-favicon_512x512-192x192.png",
+      "tipo": "png",
+      "bytes": 12289,
+      "sha256": "5a28c47d8353418f4e7aeb77c433b68abc704cd758b5c9deb588327c1bc35edd"
+    },
+    "upn": {
+      "archivo": "/partidos/upn.png",
+      "origen": "https://www.upn.org/wp-content/uploads/2023/04/favicon.png",
+      "tipo": "png",
+      "bytes": 1957,
+      "sha256": "695b5468612859df726eb69f032b87b9b00cacf00106c095f713e1a026fbd12b"
+    },
+    "pacma": {
+      "archivo": "/partidos/pacma.png",
+      "origen": "https://pacma.es/wp-content/uploads/2023/02/Isotipo-PACMA.png",
+      "tipo": "png",
+      "bytes": 7510,
+      "sha256": "cb46ce1d393ddcb2f3c2be84550db868bca15e749e2106d94048d29d4e8daf38"
+    },
+    "cup": {
+      "archivo": "/partidos/cup.png",
+      "origen": "https://cup.cat/wp-content/uploads/2025/06/cropped-LOGO-CUP-2025-2-192x192.png",
+      "tipo": "png",
+      "bytes": 4445,
+      "sha256": "45ac00a62c335e995f8432b8001382da9cb0a4f6493ddfc5172abe9e8a733e65"
+    },
+    "nc": {
+      "archivo": "/partidos/nc.png",
+      "origen": "https://nuevacanarias.org/wp-content/uploads/2023/02/NC_favicon_114.png",
+      "tipo": "png",
+      "bytes": 4015,
+      "sha256": "186e42d283cf12ffe1e6a92ff780b41245044e1670796a1e28e1b6e1c255e8e7"
+    },
+    "upl": {
+      "archivo": "/partidos/upl.png",
+      "origen": "https://www.upl.es/wp-content/uploads/2025/11/cropped-logo_ipl-192x192.png",
+      "tipo": "png",
+      "bytes": 12029,
+      "sha256": "cda3f558f75b4a100e801ecdcb1a9ce65b740a122454750d5ee7d34462bf0fe7"
+    },
+    "gbai": {
+      "archivo": "/partidos/gbai.png",
+      "origen": "https://geroabai.eus/favicon-96x96.png",
+      "tipo": "png",
+      "bytes": 177284,
+      "sha256": "e15c3ef6e9e531aa4b4d43aac51daf3d6fbf57507b134291341a6b49bb17b35b"
+    },
+    "fo": {
+      "archivo": "/partidos/fo.png",
+      "origen": "https://frenteobrero.es/wp-content/uploads/2023/05/logo_footer.png",
+      "tipo": "png",
+      "bytes": 115470,
+      "sha256": "ee801dea3519f1df56c3cf2b1488bbde45774f2a4ff52dc602712528a45e3047"
+    },
+    "pumj": {
+      "archivo": "/partidos/pumj.png",
+      "origen": "https://www.porunmundomasjusto.es/wp-content/uploads/fbrfg/apple-touch-icon.png",
+      "tipo": "png",
+      "bytes": 8846,
+      "sha256": "529f2b2ba963a8b45b1457920ea1fb47f84762715510dfcd22ebc8732b39f788"
+    },
+    "existe": {
+      "archivo": "/partidos/existe.png",
+      "origen": "https://aragonexiste.org/wp-content/uploads/2022/11/cropped-widget-192x192.png",
+      "tipo": "png",
+      "bytes": 7108,
+      "sha256": "f351a8e3b68b0a01207c3a345d3dc8f54eeffcdb5b3091fa233367e749d63ac7"
+    },
+    "pcte": {
+      "archivo": "/partidos/pcte.png",
+      "origen": "https://s3.eu-west-3.amazonaws.com/cdn.pcte.es/wp-content/uploads/2020/04/11074428/cropped-favicon-2-192x192.png",
+      "tipo": "png",
+      "bytes": 9849,
+      "sha256": "299f90f662d903c9dbee26d740846194105b449ebd79b7bae63b83a69aba7387"
+    },
+    "soriaya": {
+      "archivo": "/partidos/soriaya.png",
+      "origen": "https://soriaya.org/wp-content/uploads/2019/01/cropped-SoriaYATil2-192x192.png",
+      "tipo": "png",
+      "bytes": 8593,
+      "sha256": "7fbc2db5be423b639bb30fc174995c42b13f422dd7cadb54849c012a17383a39"
+    },
+    "adelante": {
+      "archivo": "/partidos/adelante.png",
+      "origen": "https://adelanteandalucia.org/wp-content/uploads/2022/02/cropped-adelante-andalucia-192x192.png",
+      "tipo": "png",
+      "bytes": 7326,
+      "sha256": "10f6e85ecfb1a5ebd1b1627d7e8f98b058ae774a9e31781cd1a39705a4a077a9"
+    },
+    "jaen": {
+      "archivo": "/partidos/jaen.png",
+      "origen": "https://www.jaenmerecemas.es/wp-content/uploads/2023/04/cropped-Diseno_sin_titulo__1_-removebg-preview-192x192.png",
+      "tipo": "png",
+      "bytes": 14784,
+      "sha256": "09a58f6efe2534b30e8c419820090f9c1e78ab2e0d8e02c37d5431e58c3bdba6"
+    },
+    "xav": {
+      "archivo": "/partidos/xav.jpg",
+      "origen": "https://poravila.es/wp-content/uploads/2019/03/cropped-ICONO-DEL-SITIO-512x512px-192x192.jpg",
+      "tipo": "jpg",
+      "bytes": 7495,
+      "sha256": "113cdaa399daff13f12e1f8f1ecdc861bf2c0945a7160507b2ed54cd18278562"
+    },
+    "falange": {
+      "archivo": "/partidos/falange.png",
+      "origen": "https://falange.es/wp-content/uploads/2026/03/cropped-ROJO_VERTICAL-LOGO-FEdelasJONS_LAFALANGE-192x192.png",
+      "tipo": "png",
+      "bytes": 19581,
+      "sha256": "d7181c1a2cd5df891ef2566de724cde0973a871ae239686abc0a661e437698ce"
+    },
+    "par": {
+      "archivo": "/partidos/par.png",
+      "origen": "https://partidoaragones.es/wp-content/uploads/favicon.png",
+      "tipo": "png",
+      "bytes": 53495,
+      "sha256": "4cb4fd9b6bcaa4e77a85c7fb554ef193a2e0feb9eea5d13b6fb3c43c22c31d2b"
+    },
+    "ev": {
+      "archivo": "/partidos/ev.png",
+      "origen": "https://xn--espaavaciada-dhb.org/wp-content/uploads/2022/01/icono-espana-vaciada-300x300.png",
+      "tipo": "png",
+      "bytes": 17009,
+      "sha256": "c11a4bc16abe743684a38707ca5de1925c5465d691b4e3583ce06791356d1609"
+    },
+    "ph": {
+      "archivo": "/partidos/ph.jpg",
+      "origen": "https://partidohumanista.es/wp-content/uploads/2024/05/logoPHweb-300x300.jpg",
+      "tipo": "jpg",
+      "bytes": 27924,
+      "sha256": "7e8b3fe9106f6dd803e508ca9770f24a2807e1828dc86d4552372748c6bd26e9"
+    },
+    "vp": {
+      "archivo": "/partidos/vp.jpg",
+      "origen": "https://vamospalencia.es/wp-content/uploads/2022/11/cropped-vamos_palencia_logo_icono-192x192.jpg",
+      "tipo": "jpg",
+      "bytes": 3281,
+      "sha256": "03d6c92582fcfe67f9516a803c08a008dd46faf07bca8768a520762d8049b16f"
+    },
+    "vb": {
+      "archivo": "/partidos/vb.png",
+      "origen": "https://www.viaburgalesa.es/wp-content/uploads/2023/04/cropped-Diseno-sin-titulo-192x192.png",
+      "tipo": "png",
+      "bytes": 21644,
+      "sha256": "4b9170931079c50d8816da0e7515ba17ac21068cc94a69e254c06260c59da310"
+    },
+    "autonomos": {
+      "archivo": "/partidos/autonomos.png",
+      "origen": "https://www.partidoautonomos.es/wp-content/uploads/2020/10/cropped-Partido-Autonomos-favicon-web-300x300.png",
+      "tipo": "png",
+      "bytes": 9329,
+      "sha256": "2cd0c0b3763bf17aab439299512277ffd29294aacc0efc6f3bed45491852c5fd"
+    }
+  },
+  "sinIcono": {
+    "evb": "HTTP 200 y ningún icono válido"
+  }
+}
