@@ -1,0 +1,20 @@
+{
+  "_nota": "Claves = código de cabecera de acumulación nacional (fichero 03 de Infoelectoral, elección 02/2023-07). Colores orientativos aproximados a la identidad visual pública de cada candidatura; la interfaz siempre los acompaña de siglas.",
+  "000005": { "etiqueta": "PP", "color": "#1D84CE" },
+  "000002": { "etiqueta": "PSOE", "color": "#E30613" },
+  "000006": { "etiqueta": "VOX", "color": "#63BE21" },
+  "000010": { "etiqueta": "SUMAR", "color": "#E51C55" },
+  "000050": { "etiqueta": "ERC", "color": "#FFB232" },
+  "000057": { "etiqueta": "JUNTS", "color": "#00C3B2" },
+  "000071": { "etiqueta": "EH Bildu", "color": "#B5CF18" },
+  "000075": { "etiqueta": "EAJ-PNV", "color": "#2E8B57" },
+  "000065": { "etiqueta": "BNG", "color": "#7FB3E0" },
+  "000031": { "etiqueta": "CCa", "color": "#F2C200" },
+  "000074": { "etiqueta": "UPN", "color": "#2A52BE" },
+  "000007": { "etiqueta": "PACMA", "color": "#8DB33A" },
+  "000053": { "etiqueta": "CUP-PR", "color": "#FFED00" },
+  "000032": { "etiqueta": "NC-bc", "color": "#7AA6C2" },
+  "000055": { "etiqueta": "PDeCAT", "color": "#1F4E8C" },
+  "000039": { "etiqueta": "UPL", "color": "#B5121B" },
+  "000073": { "etiqueta": "GBAI", "color": "#E6007E" }
+}

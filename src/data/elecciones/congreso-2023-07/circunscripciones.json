@@ -1,0 +1,5133 @@
+{
+ "eleccionId": "congreso-2023-07",
+ "circunscripciones": [
+  {
+   "codigoINE": "15",
+   "slug": "a-coruna",
+   "nombre": "A Coruña",
+   "escanos": 8,
+   "esMayoritaria": false,
+   "censoEscrutinio": 1085673,
+   "votosBlanco": 5197,
+   "votosNulos": 5485,
+   "votosCandidaturas": 672505,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 292272,
+     "escanosOficiales": 4
+    },
+    {
+     "codigo": "000064",
+     "siglas": "PSdeG-PSOE",
+     "denominacion": "PARTIDO DOS SOCIALISTAS DE GALICIA-PSOE",
+     "cabeceraNacional": "000002",
+     "votos": 190897,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000066",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR GALICIA",
+     "cabeceraNacional": "000010",
+     "votos": 82618,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000065",
+     "siglas": "B.N.G.",
+     "denominacion": "BLOQUE NACIONALISTA GALEGO",
+     "cabeceraNacional": "000065",
+     "votos": 67653,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 34410,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 3096,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 1011,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 548,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "03",
+   "slug": "alacant-alicante",
+   "nombre": "Alacant/Alicante",
+   "escanos": 12,
+   "esMayoritaria": false,
+   "censoEscrutinio": 1306311,
+   "votosBlanco": 6575,
+   "votosNulos": 9650,
+   "votosCandidaturas": 892617,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 330293,
+     "escanosOficiales": 5
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 287737,
+     "escanosOficiales": 4
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 146133,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000082",
+     "siglas": "SUMAR - COMPROMÍS",
+     "denominacion": "COMPROMÍS - SUMAR: SUMEM PER GUANYAR",
+     "cabeceraNacional": "000010",
+     "votos": 115787,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 7335,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000097",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 1724,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000081",
+     "siglas": "PARTIDO AUTÓNOMOS",
+     "denominacion": "PARTIDO AUTÓNOMOS",
+     "cabeceraNacional": "000081",
+     "votos": 1446,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 1135,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000013",
+     "siglas": "CJ",
+     "denominacion": "CAMINANDO JUNTOS",
+     "cabeceraNacional": "000013",
+     "votos": 1027,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "02",
+   "slug": "albacete",
+   "nombre": "Albacete",
+   "escanos": 4,
+   "esMayoritaria": false,
+   "censoEscrutinio": 307988,
+   "votosBlanco": 1834,
+   "votosNulos": 2726,
+   "votosCandidaturas": 219357,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 88299,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 76322,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 36750,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 15834,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 1261,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 381,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 325,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 185,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "04",
+   "slug": "almeria",
+   "nombre": "Almería",
+   "escanos": 6,
+   "esMayoritaria": false,
+   "censoEscrutinio": 516114,
+   "votosBlanco": 2464,
+   "votosNulos": 3163,
+   "votosCandidaturas": 318778,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 131524,
+     "escanosOficiales": 3
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 93282,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 68364,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000011",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR ANDALUCÍA",
+     "cabeceraNacional": "000010",
+     "votos": 21485,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 1962,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000004",
+     "siglas": "ALM",
+     "denominacion": "ALMERIENSES - REGIONALISTAS PRO ALMERÍA",
+     "cabeceraNacional": "000004",
+     "votos": 874,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 500,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 371,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000008",
+     "siglas": "LB",
+     "denominacion": "LIBRES",
+     "cabeceraNacional": "000008",
+     "votos": 210,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 206,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "01",
+   "slug": "araba-alava",
+   "nombre": "Araba/Álava",
+   "escanos": 4,
+   "esMayoritaria": false,
+   "censoEscrutinio": 260214,
+   "votosBlanco": 722,
+   "votosNulos": 1431,
+   "votosCandidaturas": 168385,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000076",
+     "siglas": "PSE-EE (PSOE)",
+     "denominacion": "PARTIDO SOCIALISTA DE EUSKADI-EUSKADIKO EZKERRA (PSOE)",
+     "cabeceraNacional": "000002",
+     "votos": 46775,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000071",
+     "siglas": "EH Bildu",
+     "denominacion": "EUSKAL HERRIA BILDU",
+     "cabeceraNacional": "000071",
+     "votos": 32987,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 30212,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000075",
+     "siglas": "EAJ-PNV",
+     "denominacion": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
+     "cabeceraNacional": "000075",
+     "votos": 28075,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 21561,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 6573,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 773,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000014",
+     "siglas": "ESCAÑOS EN BLANCO",
+     "denominacion": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+     "cabeceraNacional": "000014",
+     "votos": 619,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 354,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 185,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000098",
+     "siglas": "PCTE",
+     "denominacion": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+     "cabeceraNacional": "000015",
+     "votos": 165,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000077",
+     "siglas": "PUM+J",
+     "denominacion": "BIDEZKO MUNDURANTZ",
+     "cabeceraNacional": "000003",
+     "votos": 106,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "33",
+   "slug": "asturias",
+   "nombre": "Asturias",
+   "escanos": 7,
+   "esMayoritaria": false,
+   "censoEscrutinio": 959023,
+   "votosBlanco": 6079,
+   "votosNulos": 6151,
+   "votosCandidaturas": 590953,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 212816,
+     "escanosOficiales": 3
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 205049,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 88630,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 74571,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 3167,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000028",
+     "siglas": "ASTURIAS EXISTE EV",
+     "denominacion": "ASTURIAS EXISTE-ESPAÑA VACIADA",
+     "cabeceraNacional": "000028",
+     "votos": 2314,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000015",
+     "siglas": "PCTE",
+     "denominacion": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+     "cabeceraNacional": "000015",
+     "votos": 1598,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 1176,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 773,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 590,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000026",
+     "siglas": "PUEDE",
+     "denominacion": "PARTIDO UNIONISTA ESTADO DE ESPAÑA",
+     "cabeceraNacional": "000026",
+     "votos": 269,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "05",
+   "slug": "avila",
+   "nombre": "Ávila",
+   "escanos": 3,
+   "esMayoritaria": false,
+   "censoEscrutinio": 136669,
+   "votosBlanco": 632,
+   "votosNulos": 1164,
+   "votosCandidaturas": 97324,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 42369,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 26828,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 15068,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000035",
+     "siglas": "XAV",
+     "denominacion": "POR ÁVILA",
+     "cabeceraNacional": "000035",
+     "votos": 7362,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 5027,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 275,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 100,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 91,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000015",
+     "siglas": "PCTE",
+     "denominacion": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+     "cabeceraNacional": "000015",
+     "votos": 85,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000019",
+     "siglas": "FE de las JONS",
+     "denominacion": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+     "cabeceraNacional": "000019",
+     "votos": 77,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 42,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "06",
+   "slug": "badajoz",
+   "nombre": "Badajoz",
+   "escanos": 5,
+   "esMayoritaria": false,
+   "censoEscrutinio": 550702,
+   "votosBlanco": 3225,
+   "votosNulos": 6772,
+   "votosCandidaturas": 388236,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 153473,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 148068,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 53492,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 26778,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000062",
+     "siglas": "BQEX",
+     "denominacion": "BLOQUE EXTREMEÑO",
+     "cabeceraNacional": "000062",
+     "votos": 3885,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 1395,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000097",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 477,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 464,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 204,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "08",
+   "slug": "barcelona",
+   "nombre": "Barcelona",
+   "escanos": 32,
+   "esMayoritaria": false,
+   "censoEscrutinio": 4243500,
+   "votosBlanco": 21059,
+   "votosNulos": 21242,
+   "votosCandidaturas": 2646419,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000047",
+     "siglas": "PSC",
+     "denominacion": "PARTIT DELS SOCIALISTES DE CATALUNYA (PSC-PSOE)",
+     "cabeceraNacional": "000002",
+     "votos": 952347,
+     "escanosOficiales": 13
+    },
+    {
+     "codigo": "000051",
+     "siglas": "SUMAR - ECP",
+     "denominacion": "SUMAR - EN COMÚ PODEM",
+     "cabeceraNacional": "000010",
+     "votos": 405993,
+     "escanosOficiales": 5
+    },
+    {
+     "codigo": "000048",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR / PARTIT POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 367519,
+     "escanosOficiales": 5
+    },
+    {
+     "codigo": "000050",
+     "siglas": "ERC",
+     "denominacion": "ESQUERRA REPUBLICANA DE CATALUNYA",
+     "cabeceraNacional": "000050",
+     "votos": 328697,
+     "escanosOficiales": 4
+    },
+    {
+     "codigo": "000057",
+     "siglas": "JxCAT - JUNTS",
+     "denominacion": "JUNTS PER CATALUNYA - JUNTS",
+     "cabeceraNacional": "000057",
+     "votos": 258159,
+     "escanosOficiales": 3
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 201775,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000053",
+     "siglas": "CUP-PR",
+     "denominacion": "CANDIDATURA D'UNITAT POPULAR-PER LA RUPTURA",
+     "cabeceraNacional": "000053",
+     "votos": 67266,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000058",
+     "siglas": "PACMA",
+     "denominacion": "PARTIT ANIMALISTA AMB EL MEDI AMBIENT",
+     "cabeceraNacional": "000007",
+     "votos": 28201,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000055",
+     "siglas": "PDeCAT-E-CiU",
+     "denominacion": "PARTIT DEMÒCRATA EUROPEU CATALÀ-ESPAI CIU",
+     "cabeceraNacional": "000055",
+     "votos": 24452,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 6048,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 3104,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000054",
+     "siglas": "PCTC",
+     "denominacion": "PARTIT COMUNISTA DELS TREBALLADORS DE CATALUNYA",
+     "cabeceraNacional": "000015",
+     "votos": 2858,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "48",
+   "slug": "bizkaia",
+   "nombre": "Bizkaia",
+   "escanos": 8,
+   "esMayoritaria": false,
+   "censoEscrutinio": 942983,
+   "votosBlanco": 3391,
+   "votosNulos": 5251,
+   "votosCandidaturas": 606302,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000075",
+     "siglas": "EAJ-PNV",
+     "denominacion": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
+     "cabeceraNacional": "000075",
+     "votos": 164188,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000076",
+     "siglas": "PSE-EE (PSOE)",
+     "denominacion": "PARTIDO SOCIALISTA DE EUSKADI-EUSKADIKO EZKERRA (PSOE)",
+     "cabeceraNacional": "000002",
+     "votos": 157448,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000071",
+     "siglas": "EH Bildu",
+     "denominacion": "EUSKAL HERRIA BILDU",
+     "cabeceraNacional": "000071",
+     "votos": 125867,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 70533,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 66592,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 16069,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 2729,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 929,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 804,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000015",
+     "siglas": "PCTE",
+     "denominacion": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+     "cabeceraNacional": "000015",
+     "votos": 618,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 525,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "09",
+   "slug": "burgos",
+   "nombre": "Burgos",
+   "escanos": 4,
+   "esMayoritaria": false,
+   "censoEscrutinio": 296401,
+   "votosBlanco": 1851,
+   "votosNulos": 2317,
+   "votosCandidaturas": 200718,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 82329,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 69775,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 25858,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 17508,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000036",
+     "siglas": "VB",
+     "denominacion": "VÍA BURGALESA",
+     "cabeceraNacional": "000036",
+     "votos": 1774,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000037",
+     "siglas": "EV-PCAS-TC",
+     "denominacion": "ESPAÑA VACIADA-PARTIDO CASTELLANO-TIERRA COMUNERA",
+     "cabeceraNacional": "000037",
+     "votos": 1184,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 943,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 490,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 354,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000015",
+     "siglas": "PCTE",
+     "denominacion": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+     "cabeceraNacional": "000015",
+     "votos": 349,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 154,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "10",
+   "slug": "caceres",
+   "nombre": "Cáceres",
+   "escanos": 4,
+   "esMayoritaria": false,
+   "censoEscrutinio": 339491,
+   "votosBlanco": 1721,
+   "votosNulos": 3896,
+   "votosCandidaturas": 234130,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 91692,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 89633,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 32076,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 16354,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000062",
+     "siglas": "BQEX",
+     "denominacion": "BLOQUE EXTREMEÑO",
+     "cabeceraNacional": "000062",
+     "votos": 1922,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000063",
+     "siglas": "Somos Cc",
+     "denominacion": "SOMOS CÁCERES",
+     "cabeceraNacional": "000063",
+     "votos": 963,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 814,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 316,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 249,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 111,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "11",
+   "slug": "cadiz",
+   "nombre": "Cádiz",
+   "escanos": 9,
+   "esMayoritaria": false,
+   "censoEscrutinio": 1017958,
+   "votosBlanco": 7103,
+   "votosNulos": 7703,
+   "votosCandidaturas": 629995,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 221703,
+     "escanosOficiales": 4
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 211200,
+     "escanosOficiales": 3
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 96720,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000011",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR ANDALUCÍA",
+     "cabeceraNacional": "000010",
+     "votos": 82115,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000012",
+     "siglas": "ADELANTE ANDALUCÍA",
+     "denominacion": "ADELANTE ANDALUCÍA",
+     "cabeceraNacional": "000012",
+     "votos": 9191,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 5937,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 1225,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000013",
+     "siglas": "CJ",
+     "denominacion": "CAMINANDO JUNTOS",
+     "cabeceraNacional": "000013",
+     "votos": 745,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 673,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 486,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "39",
+   "slug": "cantabria",
+   "nombre": "Cantabria",
+   "escanos": 5,
+   "esMayoritaria": false,
+   "censoEscrutinio": 507818,
+   "votosBlanco": 3262,
+   "votosNulos": 4995,
+   "votosCandidaturas": 346888,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 147326,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 116596,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 49243,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 29713,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 2089,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 790,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000015",
+     "siglas": "PCTE",
+     "denominacion": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+     "cabeceraNacional": "000015",
+     "votos": 598,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 533,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "12",
+   "slug": "castello-castellon",
+   "nombre": "Castelló/Castellón",
+   "escanos": 5,
+   "esMayoritaria": false,
+   "censoEscrutinio": 430830,
+   "votosBlanco": 2655,
+   "votosNulos": 3651,
+   "votosCandidaturas": 305275,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 108302,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 100530,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 48913,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000082",
+     "siglas": "SUMAR - COMPROMÍS",
+     "denominacion": "COMPROMÍS - SUMAR: SUMEM PER GUANYAR",
+     "cabeceraNacional": "000010",
+     "votos": 44187,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 1968,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 721,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 493,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000019",
+     "siglas": "FE de las JONS",
+     "denominacion": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+     "cabeceraNacional": "000019",
+     "votos": 161,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "51",
+   "slug": "ceuta",
+   "nombre": "Ceuta",
+   "escanos": 1,
+   "esMayoritaria": true,
+   "censoEscrutinio": 63310,
+   "votosBlanco": 328,
+   "votosNulos": 353,
+   "votosCandidaturas": 32993,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 12918,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 11332,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 7752,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 821,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 53,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000008",
+     "siglas": "LB",
+     "denominacion": "LIBRES",
+     "cabeceraNacional": "000008",
+     "votos": 53,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 33,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 31,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "13",
+   "slug": "ciudad-real",
+   "nombre": "Ciudad Real",
+   "escanos": 5,
+   "esMayoritaria": false,
+   "censoEscrutinio": 391495,
+   "votosBlanco": 2353,
+   "votosNulos": 3916,
+   "votosCandidaturas": 280626,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 114709,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 100102,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 46046,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 17405,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 1319,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 447,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 365,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 233,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "14",
+   "slug": "cordoba",
+   "nombre": "Córdoba",
+   "escanos": 6,
+   "esMayoritaria": false,
+   "censoEscrutinio": 645288,
+   "votosBlanco": 4348,
+   "votosNulos": 6962,
+   "votosCandidaturas": 444254,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 169976,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 144080,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 62526,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000011",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR ANDALUCÍA",
+     "cabeceraNacional": "000010",
+     "votos": 61594,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 2699,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000014",
+     "siglas": "ESCAÑOS EN BLANCO",
+     "denominacion": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+     "cabeceraNacional": "000014",
+     "votos": 942,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000015",
+     "siglas": "PCTE",
+     "denominacion": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+     "cabeceraNacional": "000015",
+     "votos": 746,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 701,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 598,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 392,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "16",
+   "slug": "cuenca",
+   "nombre": "Cuenca",
+   "escanos": 3,
+   "esMayoritaria": false,
+   "censoEscrutinio": 152694,
+   "votosBlanco": 969,
+   "votosNulos": 1472,
+   "votosCandidaturas": 112839,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 45255,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 42528,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 17700,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 6325,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 387,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000097",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 207,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000014",
+     "siglas": "ESCAÑOS EN BLANCO",
+     "denominacion": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+     "cabeceraNacional": "000014",
+     "votos": 168,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 111,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000015",
+     "siglas": "PCTE",
+     "denominacion": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+     "cabeceraNacional": "000015",
+     "votos": 100,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 58,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "20",
+   "slug": "gipuzkoa",
+   "nombre": "Gipuzkoa",
+   "escanos": 6,
+   "esMayoritaria": false,
+   "censoEscrutinio": 585873,
+   "votosBlanco": 2005,
+   "votosNulos": 2344,
+   "votosCandidaturas": 374616,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000071",
+     "siglas": "EH Bildu",
+     "denominacion": "EUSKAL HERRIA BILDU",
+     "cabeceraNacional": "000071",
+     "votos": 117321,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000076",
+     "siglas": "PSE-EE (PSOE)",
+     "denominacion": "PARTIDO SOCIALISTA DE EUSKADI-EUSKADIKO EZKERRA (PSOE)",
+     "cabeceraNacional": "000002",
+     "votos": 87709,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000075",
+     "siglas": "EAJ-PNV",
+     "denominacion": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
+     "cabeceraNacional": "000075",
+     "votos": 85026,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 40081,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 32721,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 7877,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 1568,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000014",
+     "siglas": "ESCAÑOS EN BLANCO",
+     "denominacion": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+     "cabeceraNacional": "000014",
+     "votos": 933,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 530,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 442,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000078",
+     "siglas": "PCTE/ELAK",
+     "denominacion": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE EUSKADI/EUSKADIKO LANGILEEN ALDERDI KOMUNISTA",
+     "cabeceraNacional": "000015",
+     "votos": 259,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000077",
+     "siglas": "PUM+J",
+     "denominacion": "BIDEZKO MUNDURANTZ",
+     "cabeceraNacional": "000003",
+     "votos": 149,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "17",
+   "slug": "girona",
+   "nombre": "Girona",
+   "escanos": 6,
+   "esMayoritaria": false,
+   "censoEscrutinio": 546370,
+   "votosBlanco": 2981,
+   "votosNulos": 4171,
+   "votosCandidaturas": 320007,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000047",
+     "siglas": "PSC",
+     "denominacion": "PARTIT DELS SOCIALISTES DE CATALUNYA (PSC-PSOE)",
+     "cabeceraNacional": "000002",
+     "votos": 93448,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000057",
+     "siglas": "JxCAT - JUNTS",
+     "denominacion": "JUNTS PER CATALUNYA - JUNTS",
+     "cabeceraNacional": "000057",
+     "votos": 63251,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000050",
+     "siglas": "ERC",
+     "denominacion": "ESQUERRA REPUBLICANA DE CATALUNYA",
+     "cabeceraNacional": "000050",
+     "votos": 47531,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000051",
+     "siglas": "SUMAR - ECP",
+     "denominacion": "SUMAR - EN COMÚ PODEM",
+     "cabeceraNacional": "000010",
+     "votos": 35344,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000056",
+     "siglas": "PP",
+     "denominacion": "PARTIT POPULAR / PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 31341,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 22706,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000053",
+     "siglas": "CUP-PR",
+     "denominacion": "CANDIDATURA D'UNITAT POPULAR-PER LA RUPTURA",
+     "cabeceraNacional": "000053",
+     "votos": 18229,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000058",
+     "siglas": "PACMA",
+     "denominacion": "PARTIT ANIMALISTA AMB EL MEDI AMBIENT",
+     "cabeceraNacional": "000007",
+     "votos": 3531,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000055",
+     "siglas": "PDeCAT-E-CiU",
+     "denominacion": "PARTIT DEMÒCRATA EUROPEU CATALÀ-ESPAI CIU",
+     "cabeceraNacional": "000055",
+     "votos": 3388,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 570,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000054",
+     "siglas": "PCTC",
+     "denominacion": "PARTIT COMUNISTA DELS TREBALLADORS DE CATALUNYA",
+     "cabeceraNacional": "000015",
+     "votos": 420,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 248,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "18",
+   "slug": "granada",
+   "nombre": "Granada",
+   "escanos": 7,
+   "esMayoritaria": false,
+   "censoEscrutinio": 765478,
+   "votosBlanco": 4057,
+   "votosNulos": 6641,
+   "votosCandidaturas": 498788,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 185996,
+     "escanosOficiales": 3
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 165862,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 81080,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 58567,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 3143,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000016",
+     "siglas": "JxG",
+     "denominacion": "JUNTOS POR GRANADA",
+     "cabeceraNacional": "000016",
+     "votos": 1218,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 765,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000015",
+     "siglas": "PCTE",
+     "denominacion": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+     "cabeceraNacional": "000015",
+     "votos": 695,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 658,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000013",
+     "siglas": "CJ",
+     "denominacion": "CAMINANDO JUNTOS",
+     "cabeceraNacional": "000013",
+     "votos": 461,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 343,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "19",
+   "slug": "guadalajara",
+   "nombre": "Guadalajara",
+   "escanos": 3,
+   "esMayoritaria": false,
+   "censoEscrutinio": 196983,
+   "votosBlanco": 1143,
+   "votosNulos": 1831,
+   "votosCandidaturas": 139770,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 51195,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 46479,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 27126,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 12907,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 1039,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000097",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 304,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 249,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000015",
+     "siglas": "PCTE",
+     "denominacion": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+     "cabeceraNacional": "000015",
+     "votos": 191,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 162,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000019",
+     "siglas": "FE de las JONS",
+     "denominacion": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+     "cabeceraNacional": "000019",
+     "votos": 118,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "21",
+   "slug": "huelva",
+   "nombre": "Huelva",
+   "escanos": 5,
+   "esMayoritaria": false,
+   "censoEscrutinio": 402504,
+   "votosBlanco": 2410,
+   "votosNulos": 4057,
+   "votosCandidaturas": 254394,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 93565,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 92326,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 37572,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000011",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR ANDALUCÍA",
+     "cabeceraNacional": "000010",
+     "votos": 26752,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000017",
+     "siglas": "XH",
+     "denominacion": "POR HUELVA",
+     "cabeceraNacional": "000017",
+     "votos": 1931,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 1663,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 368,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 217,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "22",
+   "slug": "huesca",
+   "nombre": "Huesca",
+   "escanos": 3,
+   "esMayoritaria": false,
+   "censoEscrutinio": 173391,
+   "votosBlanco": 1217,
+   "votosNulos": 1253,
+   "votosCandidaturas": 118678,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 45783,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 40307,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 15155,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000021",
+     "siglas": "SUMAR ARAGÓN",
+     "denominacion": "SUMAR ARAGÓN",
+     "cabeceraNacional": "000010",
+     "votos": 13774,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000023",
+     "siglas": "EXISTE",
+     "denominacion": "ARAGÓN EXISTE - COALICIÓN EXISTE",
+     "cabeceraNacional": "000023",
+     "votos": 1312,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000024",
+     "siglas": "PAR",
+     "denominacion": "PARTIDO ARAGONÉS",
+     "cabeceraNacional": "000024",
+     "votos": 717,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 498,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000014",
+     "siglas": "ESCAÑOS EN BLANCO",
+     "denominacion": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+     "cabeceraNacional": "000014",
+     "votos": 475,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 258,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000015",
+     "siglas": "PCTE",
+     "denominacion": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+     "cabeceraNacional": "000015",
+     "votos": 137,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 114,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000020",
+     "siglas": "F.I.A.",
+     "denominacion": "FEDERACIÓN DE LOS INDEPENDIENTES DE ARAGÓN",
+     "cabeceraNacional": "000020",
+     "votos": 84,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 64,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "07",
+   "slug": "illes-balears",
+   "nombre": "Illes Balears",
+   "escanos": 8,
+   "esMayoritaria": false,
+   "censoEscrutinio": 828755,
+   "votosBlanco": 4704,
+   "votosNulos": 4953,
+   "votosCandidaturas": 498576,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 179303,
+     "escanosOficiales": 3
+    },
+    {
+     "codigo": "000029",
+     "siglas": "PSIB-PSOE",
+     "denominacion": "PARTIDO SOCIALISTA DE ISLAS BALEARES-PSOE",
+     "cabeceraNacional": "000002",
+     "votos": 151786,
+     "escanosOficiales": 3
+    },
+    {
+     "codigo": "000030",
+     "siglas": "MÉS PER MALLORCA-MÉS PER MENORCA-SUMAR",
+     "denominacion": "SUMAR MÉS",
+     "cabeceraNacional": "000010",
+     "votos": 83487,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 76547,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 4969,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 1039,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 726,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000015",
+     "siglas": "PCTE",
+     "denominacion": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+     "cabeceraNacional": "000015",
+     "votos": 719,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "23",
+   "slug": "jaen",
+   "nombre": "Jaén",
+   "escanos": 5,
+   "esMayoritaria": false,
+   "censoEscrutinio": 518371,
+   "votosBlanco": 2497,
+   "votosNulos": 4926,
+   "votosCandidaturas": 366234,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 137617,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 133819,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 54400,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000011",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR ANDALUCÍA",
+     "cabeceraNacional": "000010",
+     "votos": 29461,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000018",
+     "siglas": "JM+",
+     "denominacion": "JAÉN MERECE MÁS",
+     "cabeceraNacional": "000018",
+     "votos": 8293,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 1671,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 410,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 360,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 203,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "26",
+   "slug": "la-rioja",
+   "nombre": "La Rioja",
+   "escanos": 4,
+   "esMayoritaria": false,
+   "censoEscrutinio": 252091,
+   "votosBlanco": 1608,
+   "votosNulos": 2282,
+   "votosCandidaturas": 173055,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 79715,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 62322,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 17056,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 11470,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 723,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000014",
+     "siglas": "ESCAÑOS EN BLANCO",
+     "denominacion": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+     "cabeceraNacional": "000014",
+     "votos": 608,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 295,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000042",
+     "siglas": "3e",
+     "denominacion": "TERCERA EDAD EN ACCIÓN",
+     "cabeceraNacional": "000042",
+     "votos": 286,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 232,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000015",
+     "siglas": "PCTE",
+     "denominacion": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+     "cabeceraNacional": "000015",
+     "votos": 224,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 124,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "35",
+   "slug": "las-palmas",
+   "nombre": "Las Palmas",
+   "escanos": 8,
+   "esMayoritaria": false,
+   "censoEscrutinio": 898882,
+   "votosBlanco": 3062,
+   "votosNulos": 5575,
+   "votosCandidaturas": 526275,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 175671,
+     "escanosOficiales": 3
+    },
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 136857,
+     "escanosOficiales": 3
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 77343,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000033",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR CANARIAS",
+     "cabeceraNacional": "000010",
+     "votos": 54369,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000032",
+     "siglas": "NC-bc",
+     "denominacion": "NUEVA CANARIAS - BLOQUE CANARISTA",
+     "cabeceraNacional": "000032",
+     "votos": 42430,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000031",
+     "siglas": "CCa",
+     "denominacion": "COALICIÓN CANARIA",
+     "cabeceraNacional": "000031",
+     "votos": 33558,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 3570,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000034",
+     "siglas": "AHORA CANARIAS-PCPC",
+     "denominacion": "AHORA CANARIAS-PARTIDO COMUNISTA DEL PUEBLO CANARIO",
+     "cabeceraNacional": "000034",
+     "votos": 883,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 635,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 563,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 396,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "24",
+   "slug": "leon",
+   "nombre": "León",
+   "escanos": 4,
+   "esMayoritaria": false,
+   "censoEscrutinio": 422917,
+   "votosBlanco": 1577,
+   "votosNulos": 2486,
+   "votosCandidaturas": 273663,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 101605,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 92578,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 35451,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000039",
+     "siglas": "U.P.L.",
+     "denominacion": "UNIÓN DEL PUEBLO LEONÉS",
+     "cabeceraNacional": "000039",
+     "votos": 22675,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 18577,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 895,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 541,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000027",
+     "siglas": "ESPAÑA VACIADA",
+     "denominacion": "ESPAÑA VACIADA",
+     "cabeceraNacional": "000027",
+     "votos": 486,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000015",
+     "siglas": "PCTE",
+     "denominacion": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+     "cabeceraNacional": "000015",
+     "votos": 319,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000038",
+     "siglas": "PREPAL",
+     "denominacion": "PARTIDO REGIONALISTA DEL PAÍS LEONÉS",
+     "cabeceraNacional": "000038",
+     "votos": 309,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 155,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 72,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "25",
+   "slug": "lleida",
+   "nombre": "Lleida",
+   "escanos": 4,
+   "esMayoritaria": false,
+   "censoEscrutinio": 317225,
+   "votosBlanco": 2059,
+   "votosNulos": 2390,
+   "votosCandidaturas": 182480,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000047",
+     "siglas": "PSC",
+     "denominacion": "PARTIT DELS SOCIALISTES DE CATALUNYA (PSC-PSOE)",
+     "cabeceraNacional": "000002",
+     "votos": 54414,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000050",
+     "siglas": "ERC",
+     "denominacion": "ESQUERRA REPUBLICANA DE CATALUNYA",
+     "cabeceraNacional": "000050",
+     "votos": 34331,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000057",
+     "siglas": "JxCAT - JUNTS",
+     "denominacion": "JUNTS PER CATALUNYA - JUNTS",
+     "cabeceraNacional": "000057",
+     "votos": 33228,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000048",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR / PARTIT POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 23699,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000051",
+     "siglas": "SUMAR - ECP",
+     "denominacion": "SUMAR - EN COMÚ PODEM",
+     "cabeceraNacional": "000010",
+     "votos": 14561,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 12560,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000053",
+     "siglas": "CUP-PR",
+     "denominacion": "CANDIDATURA D'UNITAT POPULAR-PER LA RUPTURA",
+     "cabeceraNacional": "000053",
+     "votos": 5449,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000055",
+     "siglas": "PDeCAT-E-CiU",
+     "denominacion": "PARTIT DEMÒCRATA EUROPEU CATALÀ-ESPAI CIU",
+     "cabeceraNacional": "000055",
+     "votos": 1865,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000058",
+     "siglas": "PACMA",
+     "denominacion": "PARTIT ANIMALISTA AMB EL MEDI AMBIENT",
+     "cabeceraNacional": "000007",
+     "votos": 1352,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000059",
+     "siglas": "ESCONS EN BLANC",
+     "denominacion": "ESCONS EN BLANC",
+     "cabeceraNacional": "000014",
+     "votos": 462,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 247,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000054",
+     "siglas": "PCTC",
+     "denominacion": "PARTIT COMUNISTA DELS TREBALLADORS DE CATALUNYA",
+     "cabeceraNacional": "000015",
+     "votos": 192,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 120,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "27",
+   "slug": "lugo",
+   "nombre": "Lugo",
+   "escanos": 4,
+   "esMayoritaria": false,
+   "censoEscrutinio": 337755,
+   "votosBlanco": 1251,
+   "votosNulos": 2143,
+   "votosCandidaturas": 197315,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 99769,
+     "escanosOficiales": 3
+    },
+    {
+     "codigo": "000064",
+     "siglas": "PSdeG-PSOE",
+     "denominacion": "PARTIDO DOS SOCIALISTAS DE GALICIA-PSOE",
+     "cabeceraNacional": "000002",
+     "votos": 60163,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000065",
+     "siglas": "B.N.G.",
+     "denominacion": "BLOQUE NACIONALISTA GALEGO",
+     "cabeceraNacional": "000065",
+     "votos": 17197,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000066",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR GALICIA",
+     "cabeceraNacional": "000010",
+     "votos": 10287,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 8643,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 645,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 233,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000067",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MAIS XUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 149,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000068",
+     "siglas": "PCTG",
+     "denominacion": "PARTIDO COMUNISTA DOS TRABALLADORES DE GALIZA",
+     "cabeceraNacional": "000015",
+     "votos": 116,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 113,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "28",
+   "slug": "madrid",
+   "nombre": "Madrid",
+   "escanos": 37,
+   "esMayoritaria": false,
+   "censoEscrutinio": 5224561,
+   "votosBlanco": 28960,
+   "votosNulos": 30827,
+   "votosCandidaturas": 3579713,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 1463183,
+     "escanosOficiales": 16
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 1004599,
+     "escanosOficiales": 10
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 557780,
+     "escanosOficiales": 6
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 506164,
+     "escanosOficiales": 5
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 21742,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 7652,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 6749,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 3784,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000015",
+     "siglas": "PCTE",
+     "denominacion": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+     "cabeceraNacional": "000015",
+     "votos": 3407,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000070",
+     "siglas": "PH",
+     "denominacion": "PARTIDO HUMANISTA",
+     "cabeceraNacional": "000070",
+     "votos": 2902,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000019",
+     "siglas": "FE de las JONS",
+     "denominacion": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+     "cabeceraNacional": "000019",
+     "votos": 1751,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "29",
+   "slug": "malaga",
+   "nombre": "Málaga",
+   "escanos": 11,
+   "esMayoritaria": false,
+   "censoEscrutinio": 1239846,
+   "votosBlanco": 7509,
+   "votosNulos": 10219,
+   "votosCandidaturas": 780829,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 302000,
+     "escanosOficiales": 5
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 239172,
+     "escanosOficiales": 3
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 129758,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000011",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR ANDALUCÍA",
+     "cabeceraNacional": "000010",
+     "votos": 96652,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 8487,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 1662,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 1519,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 888,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000096",
+     "siglas": "CJ",
+     "denominacion": "CAMINANDO JUNTOS",
+     "cabeceraNacional": "000013",
+     "votos": 691,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "52",
+   "slug": "melilla",
+   "nombre": "Melilla",
+   "escanos": 1,
+   "esMayoritaria": true,
+   "censoEscrutinio": 61118,
+   "votosBlanco": 253,
+   "votosNulos": 300,
+   "votosCandidaturas": 27096,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 13446,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 6943,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 4359,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000084",
+     "siglas": "CpM",
+     "denominacion": "COALICIÓN POR MELILLA",
+     "cabeceraNacional": "000084",
+     "votos": 1298,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 827,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 160,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 40,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 23,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "30",
+   "slug": "murcia",
+   "nombre": "Murcia",
+   "escanos": 10,
+   "esMayoritaria": false,
+   "censoEscrutinio": 1099703,
+   "votosBlanco": 5034,
+   "votosNulos": 7458,
+   "votosCandidaturas": 742763,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 307972,
+     "escanosOficiales": 4
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 189210,
+     "escanosOficiales": 3
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 163124,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 71578,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 5063,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000080",
+     "siglas": "POR MI REGIÓN",
+     "denominacion": "POR MI REGIÓN",
+     "cabeceraNacional": "000080",
+     "votos": 1698,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000014",
+     "siglas": "ESCAÑOS EN BLANCO",
+     "denominacion": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+     "cabeceraNacional": "000014",
+     "votos": 1377,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 1201,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 546,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000013",
+     "siglas": "CJ",
+     "denominacion": "CAMINANDO JUNTOS",
+     "cabeceraNacional": "000013",
+     "votos": 453,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000019",
+     "siglas": "FE de las JONS",
+     "denominacion": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+     "cabeceraNacional": "000019",
+     "votos": 376,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000079",
+     "siglas": "+RDS+",
+     "denominacion": "REFERÉNDUM SISTEMA DINERO",
+     "cabeceraNacional": "000079",
+     "votos": 165,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "31",
+   "slug": "navarra",
+   "nombre": "Navarra",
+   "escanos": 5,
+   "esMayoritaria": false,
+   "censoEscrutinio": 519918,
+   "votosBlanco": 2890,
+   "votosNulos": 3251,
+   "votosCandidaturas": 338954,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000072",
+     "siglas": "PSN-PSOE",
+     "denominacion": "PARTIDO SOCIALISTA DE NAVARRA-PSOE",
+     "cabeceraNacional": "000002",
+     "votos": 93553,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000071",
+     "siglas": "EH Bildu",
+     "denominacion": "EUSKAL HERRIA BILDU",
+     "cabeceraNacional": "000071",
+     "votos": 58954,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 57134,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000074",
+     "siglas": "U.P.N.",
+     "denominacion": "UNION DEL PUEBLO NAVARRO",
+     "cabeceraNacional": "000074",
+     "votos": 52188,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 43922,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 19491,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000073",
+     "siglas": "GBAI",
+     "denominacion": "GEROA BAI",
+     "cabeceraNacional": "000073",
+     "votos": 9938,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 1530,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 1002,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 679,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000015",
+     "siglas": "PCTE",
+     "denominacion": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+     "cabeceraNacional": "000015",
+     "votos": 311,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 252,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "32",
+   "slug": "ourense",
+   "nombre": "Ourense",
+   "escanos": 4,
+   "esMayoritaria": false,
+   "censoEscrutinio": 355765,
+   "votosBlanco": 1109,
+   "votosNulos": 1794,
+   "votosCandidaturas": 185162,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 93182,
+     "escanosOficiales": 3
+    },
+    {
+     "codigo": "000064",
+     "siglas": "PSdeG-PSOE",
+     "denominacion": "PARTIDO DOS SOCIALISTAS DE GALICIA-PSOE",
+     "cabeceraNacional": "000002",
+     "votos": 56035,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000065",
+     "siglas": "B.N.G.",
+     "denominacion": "BLOQUE NACIONALISTA GALEGO",
+     "cabeceraNacional": "000065",
+     "votos": 15317,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000066",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR GALICIA",
+     "cabeceraNacional": "000010",
+     "votos": 10171,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 9080,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 700,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 182,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000069",
+     "siglas": "CCD",
+     "denominacion": "COALICIÓN DE CENTRO DEMOCRÁTICO",
+     "cabeceraNacional": "000069",
+     "votos": 153,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000067",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MAIS XUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 144,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000068",
+     "siglas": "PCTG",
+     "denominacion": "PARTIDO COMUNISTA DOS TRABALLADORES DE GALIZA",
+     "cabeceraNacional": "000015",
+     "votos": 101,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 97,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "34",
+   "slug": "palencia",
+   "nombre": "Palencia",
+   "escanos": 3,
+   "esMayoritaria": false,
+   "censoEscrutinio": 137642,
+   "votosBlanco": 833,
+   "votosNulos": 1117,
+   "votosCandidaturas": 96129,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 40709,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 33613,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 12504,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 5877,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000040",
+     "siglas": "VP",
+     "denominacion": "VAMOS PALENCIA",
+     "cabeceraNacional": "000040",
+     "votos": 1917,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000027",
+     "siglas": "ESPAÑA VACIADA",
+     "denominacion": "ESPAÑA VACIADA",
+     "cabeceraNacional": "000027",
+     "votos": 384,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000041",
+     "siglas": "GITV",
+     "denominacion": "GRUPO INDEPENDIENTE PALENCIA TIERRA VIVA",
+     "cabeceraNacional": "000041",
+     "votos": 366,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 295,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 139,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 99,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000015",
+     "siglas": "PCTE",
+     "denominacion": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+     "cabeceraNacional": "000015",
+     "votos": 80,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000019",
+     "siglas": "FE de las JONS",
+     "denominacion": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+     "cabeceraNacional": "000019",
+     "votos": 71,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 42,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000013",
+     "siglas": "CJ",
+     "denominacion": "CAMINANDO JUNTOS",
+     "cabeceraNacional": "000013",
+     "votos": 33,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "36",
+   "slug": "pontevedra",
+   "nombre": "Pontevedra",
+   "escanos": 7,
+   "esMayoritaria": false,
+   "censoEscrutinio": 909434,
+   "votosBlanco": 3865,
+   "votosNulos": 6001,
+   "votosCandidaturas": 569259,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 227658,
+     "escanosOficiales": 3
+    },
+    {
+     "codigo": "000064",
+     "siglas": "PSdeG-PSOE",
+     "denominacion": "PARTIDO DOS SOCIALISTAS DE GALICIA-PSOE",
+     "cabeceraNacional": "000002",
+     "votos": 179737,
+     "escanosOficiales": 3
+    },
+    {
+     "codigo": "000066",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR GALICIA",
+     "cabeceraNacional": "000010",
+     "votos": 75615,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000065",
+     "siglas": "B.N.G.",
+     "denominacion": "BLOQUE NACIONALISTA GALEGO",
+     "cabeceraNacional": "000065",
+     "votos": 53828,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 27539,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 3003,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 884,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 510,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000068",
+     "siglas": "PCTG",
+     "denominacion": "PARTIDO COMUNISTA DOS TRABALLADORES DE GALIZA",
+     "cabeceraNacional": "000015",
+     "votos": 485,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "37",
+   "slug": "salamanca",
+   "nombre": "Salamanca",
+   "escanos": 4,
+   "esMayoritaria": false,
+   "censoEscrutinio": 300506,
+   "votosBlanco": 1649,
+   "votosNulos": 2309,
+   "votosCandidaturas": 197461,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 93318,
+     "escanosOficiales": 3
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 60718,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 29203,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 11012,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000027",
+     "siglas": "ESPAÑA VACIADA",
+     "denominacion": "ESPAÑA VACIADA",
+     "cabeceraNacional": "000027",
+     "votos": 1062,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 631,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000038",
+     "siglas": "PREPAL",
+     "denominacion": "PARTIDO REGIONALISTA DEL PAÍS LEONÉS",
+     "cabeceraNacional": "000038",
+     "votos": 489,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000015",
+     "siglas": "PCTE",
+     "denominacion": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+     "cabeceraNacional": "000015",
+     "votos": 325,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 278,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 205,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000013",
+     "siglas": "CJ",
+     "denominacion": "CAMINANDO JUNTOS",
+     "cabeceraNacional": "000013",
+     "votos": 140,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 80,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "38",
+   "slug": "santa-cruz-de-tenerife",
+   "nombre": "Santa Cruz de Tenerife",
+   "escanos": 7,
+   "esMayoritaria": false,
+   "censoEscrutinio": 881217,
+   "votosBlanco": 5088,
+   "votosNulos": 6404,
+   "votosCandidaturas": 489285,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 174770,
+     "escanosOficiales": 3
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 165590,
+     "escanosOficiales": 3
+    },
+    {
+     "codigo": "000031",
+     "siglas": "CCa",
+     "denominacion": "COALICIÓN CANARIA",
+     "cabeceraNacional": "000031",
+     "votos": 82805,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000033",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR CANARIAS",
+     "cabeceraNacional": "000010",
+     "votos": 53632,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 6147,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000032",
+     "siglas": "NC-bc",
+     "denominacion": "NUEVA CANARIAS - BLOQUE CANARISTA",
+     "cabeceraNacional": "000032",
+     "votos": 3165,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 1619,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000034",
+     "siglas": "AHORA CANARIAS-PCPC",
+     "denominacion": "AHORA CANARIAS-PARTIDO COMUNISTA DEL PUEBLO CANARIO",
+     "cabeceraNacional": "000034",
+     "votos": 791,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 766,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "40",
+   "slug": "segovia",
+   "nombre": "Segovia",
+   "escanos": 3,
+   "esMayoritaria": false,
+   "censoEscrutinio": 119454,
+   "votosBlanco": 875,
+   "votosNulos": 1332,
+   "votosCandidaturas": 87738,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 39894,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 27113,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 12510,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 7137,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 307,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000042",
+     "siglas": "3e",
+     "denominacion": "TERCERA EDAD EN ACCIÓN",
+     "cabeceraNacional": "000042",
+     "votos": 198,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 183,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 136,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000013",
+     "siglas": "CJ",
+     "denominacion": "CAMINANDO JUNTOS",
+     "cabeceraNacional": "000013",
+     "votos": 102,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000015",
+     "siglas": "PCTE",
+     "denominacion": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+     "cabeceraNacional": "000015",
+     "votos": 94,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 64,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "41",
+   "slug": "sevilla",
+   "nombre": "Sevilla",
+   "escanos": 12,
+   "esMayoritaria": false,
+   "censoEscrutinio": 1564082,
+   "votosBlanco": 10951,
+   "votosNulos": 15775,
+   "votosCandidaturas": 1048407,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 387760,
+     "escanosOficiales": 5
+    },
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 353663,
+     "escanosOficiales": 4
+    },
+    {
+     "codigo": "000011",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR ANDALUCÍA",
+     "cabeceraNacional": "000010",
+     "votos": 148745,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 141087,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 9288,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 1950,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 1765,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000015",
+     "siglas": "PCTE",
+     "denominacion": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+     "cabeceraNacional": "000015",
+     "votos": 1522,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 1034,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000013",
+     "siglas": "CJ",
+     "denominacion": "CAMINANDO JUNTOS",
+     "cabeceraNacional": "000013",
+     "votos": 912,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000019",
+     "siglas": "FE de las JONS",
+     "denominacion": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+     "cabeceraNacional": "000019",
+     "votos": 681,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "42",
+   "slug": "soria",
+   "nombre": "Soria",
+   "escanos": 2,
+   "esMayoritaria": false,
+   "censoEscrutinio": 75768,
+   "votosBlanco": 285,
+   "votosNulos": 388,
+   "votosCandidaturas": 50484,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 18895,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 14966,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000043",
+     "siglas": "SY",
+     "denominacion": "SORIA ¡YA!",
+     "cabeceraNacional": "000043",
+     "votos": 9697,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 4978,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 1711,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 94,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 68,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000015",
+     "siglas": "PCTE",
+     "denominacion": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+     "cabeceraNacional": "000015",
+     "votos": 43,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 23,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 9,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "43",
+   "slug": "tarragona",
+   "nombre": "Tarragona",
+   "escanos": 6,
+   "esMayoritaria": false,
+   "censoEscrutinio": 596689,
+   "votosBlanco": 3168,
+   "votosNulos": 4402,
+   "votosCandidaturas": 364856,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000047",
+     "siglas": "PSC",
+     "denominacion": "PARTIT DELS SOCIALISTES DE CATALUNYA (PSC-PSOE)",
+     "cabeceraNacional": "000002",
+     "votos": 121126,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000050",
+     "siglas": "ERC",
+     "denominacion": "ESQUERRA REPUBLICANA DE CATALUNYA",
+     "cabeceraNacional": "000050",
+     "votos": 55461,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000056",
+     "siglas": "PP",
+     "denominacion": "PARTIT POPULAR / PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 51061,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000051",
+     "siglas": "SUMAR - ECP",
+     "denominacion": "SUMAR - EN COMÚ PODEM",
+     "cabeceraNacional": "000010",
+     "votos": 41719,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000057",
+     "siglas": "JxCAT - JUNTS",
+     "denominacion": "JUNTS PER CATALUNYA - JUNTS",
+     "cabeceraNacional": "000057",
+     "votos": 40791,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 38039,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000053",
+     "siglas": "CUP-PR",
+     "denominacion": "CANDIDATURA D'UNITAT POPULAR-PER LA RUPTURA",
+     "cabeceraNacional": "000053",
+     "votos": 8700,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000058",
+     "siglas": "PACMA",
+     "denominacion": "PARTIT ANIMALISTA AMB EL MEDI AMBIENT",
+     "cabeceraNacional": "000007",
+     "votos": 3797,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000055",
+     "siglas": "PDeCAT-E-CiU",
+     "denominacion": "PARTIT DEMÒCRATA EUROPEU CATALÀ-ESPAI CIU",
+     "cabeceraNacional": "000055",
+     "votos": 2311,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000097",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 661,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000054",
+     "siglas": "PCTC",
+     "denominacion": "PARTIT COMUNISTA DELS TREBALLADORS DE CATALUNYA",
+     "cabeceraNacional": "000015",
+     "votos": 405,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 267,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000060",
+     "siglas": "EVC",
+     "denominacion": "ENTRE VEÏNS CATALUNYA",
+     "cabeceraNacional": "000060",
+     "votos": 265,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000061",
+     "siglas": "UNIDOS SI",
+     "denominacion": "UNIDOS POR LA SOLIDARIDAD INTERNACIONAL",
+     "cabeceraNacional": "000061",
+     "votos": 253,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "44",
+   "slug": "teruel",
+   "nombre": "Teruel",
+   "escanos": 3,
+   "esMayoritaria": false,
+   "censoEscrutinio": 106352,
+   "votosBlanco": 410,
+   "votosNulos": 648,
+   "votosCandidaturas": 75503,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 26586,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 22226,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000025",
+     "siglas": "EXISTE",
+     "denominacion": "TERUEL EXISTE - COALICIÓN EXISTE",
+     "cabeceraNacional": "000023",
+     "votos": 11348,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 9932,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 4126,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000024",
+     "siglas": "PAR",
+     "denominacion": "PARTIDO ARAGONÉS",
+     "cabeceraNacional": "000024",
+     "votos": 711,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 172,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000014",
+     "siglas": "ESCAÑOS EN BLANCO",
+     "denominacion": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+     "cabeceraNacional": "000014",
+     "votos": 135,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 94,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000015",
+     "siglas": "PCTE",
+     "denominacion": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+     "cabeceraNacional": "000015",
+     "votos": 60,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 49,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 36,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000020",
+     "siglas": "F.I.A.",
+     "denominacion": "FEDERACIÓN DE LOS INDEPENDIENTES DE ARAGÓN",
+     "cabeceraNacional": "000020",
+     "votos": 28,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "45",
+   "slug": "toledo",
+   "nombre": "Toledo",
+   "escanos": 6,
+   "esMayoritaria": false,
+   "censoEscrutinio": 542567,
+   "votosBlanco": 2611,
+   "votosNulos": 5788,
+   "votosCandidaturas": 384589,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 146533,
+     "escanosOficiales": 3
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 126072,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 76044,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 31876,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 2024,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 985,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 499,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000019",
+     "siglas": "FE de las JONS",
+     "denominacion": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+     "cabeceraNacional": "000019",
+     "votos": 281,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 275,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "46",
+   "slug": "valencia-valencia",
+   "nombre": "València/Valencia",
+   "escanos": 16,
+   "esMayoritaria": false,
+   "censoEscrutinio": 1999340,
+   "votosBlanco": 10810,
+   "votosNulos": 14026,
+   "votosCandidaturas": 1426351,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 483469,
+     "escanosOficiales": 6
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 461353,
+     "escanosOficiales": 5
+    },
+    {
+     "codigo": "000082",
+     "siglas": "SUMAR - COMPROMÍS",
+     "denominacion": "COMPROMÍS - SUMAR: SUMEM PER GUANYAR",
+     "cabeceraNacional": "000010",
+     "votos": 242839,
+     "escanosOficiales": 3
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 218657,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 10334,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 2919,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 1778,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 1773,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000083",
+     "siglas": "EVB",
+     "denominacion": "ESTAT VALENCIÀ DEL BENESTAR",
+     "cabeceraNacional": "000083",
+     "votos": 1442,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000013",
+     "siglas": "CJ",
+     "denominacion": "CAMINANDO JUNTOS",
+     "cabeceraNacional": "000013",
+     "votos": 1056,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000019",
+     "siglas": "FE de las JONS",
+     "denominacion": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+     "cabeceraNacional": "000019",
+     "votos": 731,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "47",
+   "slug": "valladolid",
+   "nombre": "Valladolid",
+   "escanos": 5,
+   "esMayoritaria": false,
+   "censoEscrutinio": 431381,
+   "votosBlanco": 2419,
+   "votosNulos": 3003,
+   "votosCandidaturas": 313890,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 129170,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 103596,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 47948,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 28049,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000027",
+     "siglas": "ESPAÑA VACIADA",
+     "denominacion": "ESPAÑA VACIADA",
+     "cabeceraNacional": "000027",
+     "votos": 1226,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 1105,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 601,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000014",
+     "siglas": "ESCAÑOS EN BLANCO",
+     "denominacion": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+     "cabeceraNacional": "000014",
+     "votos": 583,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000044",
+     "siglas": "Ud.Ca",
+     "denominacion": "UNIDAD CASTELLANA",
+     "cabeceraNacional": "000044",
+     "votos": 463,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 376,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000015",
+     "siglas": "PCTE",
+     "denominacion": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+     "cabeceraNacional": "000015",
+     "votos": 335,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000019",
+     "siglas": "FE de las JONS",
+     "denominacion": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+     "cabeceraNacional": "000019",
+     "votos": 164,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 159,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000045",
+     "siglas": "FUERZA CÍVICA",
+     "denominacion": "FUERZA CÍVICA",
+     "cabeceraNacional": "000045",
+     "votos": 115,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "49",
+   "slug": "zamora",
+   "nombre": "Zamora",
+   "escanos": 3,
+   "esMayoritaria": false,
+   "censoEscrutinio": 162998,
+   "votosBlanco": 922,
+   "votosNulos": 1261,
+   "votosCandidaturas": 102488,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 46196,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 33601,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 13652,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000010",
+     "siglas": "SUMAR",
+     "denominacion": "SUMAR",
+     "cabeceraNacional": "000010",
+     "votos": 5839,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000046",
+     "siglas": "Zsi",
+     "denominacion": "ZAMORA SÍ",
+     "cabeceraNacional": "000046",
+     "votos": 1843,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000039",
+     "siglas": "U.P.L.",
+     "denominacion": "UNIÓN DEL PUEBLO LEONÉS",
+     "cabeceraNacional": "000039",
+     "votos": 526,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 313,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000038",
+     "siglas": "PREPAL",
+     "denominacion": "PARTIDO REGIONALISTA DEL PAÍS LEONÉS",
+     "cabeceraNacional": "000038",
+     "votos": 166,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 121,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000015",
+     "siglas": "PCTE",
+     "denominacion": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+     "cabeceraNacional": "000015",
+     "votos": 100,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 81,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 50,
+     "escanosOficiales": 0
+    }
+   ]
+  },
+  {
+   "codigoINE": "50",
+   "slug": "zaragoza",
+   "nombre": "Zaragoza",
+   "escanos": 7,
+   "esMayoritaria": false,
+   "censoEscrutinio": 740060,
+   "votosBlanco": 4693,
+   "votosNulos": 4705,
+   "votosCandidaturas": 514012,
+   "datosOficiales": true,
+   "candidaturas": [
+    {
+     "codigo": "000005",
+     "siglas": "PP",
+     "denominacion": "PARTIDO POPULAR",
+     "cabeceraNacional": "000005",
+     "votos": 186776,
+     "escanosOficiales": 3
+    },
+    {
+     "codigo": "000002",
+     "siglas": "PSOE",
+     "denominacion": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+     "cabeceraNacional": "000002",
+     "votos": 159858,
+     "escanosOficiales": 2
+    },
+    {
+     "codigo": "000006",
+     "siglas": "VOX",
+     "denominacion": "VOX",
+     "cabeceraNacional": "000006",
+     "votos": 79376,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000021",
+     "siglas": "SUMAR ARAGÓN",
+     "denominacion": "SUMAR ARAGÓN",
+     "cabeceraNacional": "000010",
+     "votos": 69925,
+     "escanosOficiales": 1
+    },
+    {
+     "codigo": "000023",
+     "siglas": "EXISTE",
+     "denominacion": "ARAGÓN EXISTE - COALICIÓN EXISTE",
+     "cabeceraNacional": "000023",
+     "votos": 7780,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000024",
+     "siglas": "PAR",
+     "denominacion": "PARTIDO ARAGONÉS",
+     "cabeceraNacional": "000024",
+     "votos": 2745,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000007",
+     "siglas": "PACMA",
+     "denominacion": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+     "cabeceraNacional": "000007",
+     "votos": 2428,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000014",
+     "siglas": "ESCAÑOS EN BLANCO",
+     "denominacion": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+     "cabeceraNacional": "000014",
+     "votos": 2146,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000001",
+     "siglas": "FO",
+     "denominacion": "FRENTE OBRERO",
+     "cabeceraNacional": "000001",
+     "votos": 1026,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000015",
+     "siglas": "PCTE",
+     "denominacion": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+     "cabeceraNacional": "000015",
+     "votos": 561,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000003",
+     "siglas": "PUM+J",
+     "denominacion": "POR UN MUNDO MÁS JUSTO",
+     "cabeceraNacional": "000003",
+     "votos": 419,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000020",
+     "siglas": "F.I.A.",
+     "denominacion": "FEDERACIÓN DE LOS INDEPENDIENTES DE ARAGÓN",
+     "cabeceraNacional": "000020",
+     "votos": 394,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000009",
+     "siglas": "RECORTES CERO",
+     "denominacion": "RECORTES CERO",
+     "cabeceraNacional": "000009",
+     "votos": 306,
+     "escanosOficiales": 0
+    },
+    {
+     "codigo": "000019",
+     "siglas": "FE de las JONS",
+     "denominacion": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+     "cabeceraNacional": "000019",
+     "votos": 272,
+     "escanosOficiales": 0
+    }
+   ]
+  }
+ ]
+}

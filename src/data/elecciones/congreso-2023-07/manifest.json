@@ -1,0 +1,32 @@
+{
+  "eleccion": {
+    "id": "congreso-2023-07",
+    "tipo": "02",
+    "anio": "2023",
+    "mes": "07",
+    "fecha": "2023-07-23",
+    "nombre": "Elecciones Generales 2023 — Congreso de los Diputados"
+  },
+  "fuente": {
+    "organismo": "Ministerio del Interior — Infoelectoral (área de descargas)",
+    "url": "https://infoelectoral.interior.gob.es/estaticos/docxl/apliextr/02202307_TOTA.zip",
+    "formatoOriginal": "ZIP con ficheros de registro fijo (.DAT), codificación ANSI/latin1",
+    "especificacion": "FICHEROS.doc incluido en el ZIP",
+    "ficherosUsados": [
+      "03 (candidaturas)",
+      "07 (datos comunes por circunscripción)",
+      "08 (votos y escaños por candidatura)"
+    ],
+    "sha256": "8df0344c9d314d1d36cd837e7ab8962f2d2705224e88fdcc75e77b54e67bece0",
+    "fechaDescarga": "2026-10-05",
+    "condicionesReutilizacion": "Información del sector público reutilizable conforme a la Ley 37/2007; citar la fuente (Ministerio del Interior)."
+  },
+  "tipoDato": "oficial",
+  "circunscripcionesSinMarcaOficial": [],
+  "notasTransformacion": [
+    "Se usan solo los registros de ámbito provincial (distrito 9); Ceuta y Melilla se marcan como mayoritarias.",
+    "Se conservan siglas y denominaciones tal como figuran en el fichero 03.",
+    "Votos válidos = votos a candidaturas + votos en blanco. Los nulos se guardan aparte.",
+    "escanosOficiales procede del fichero 08 y sirve para validar el motor de reparto."
+  ]
+}
