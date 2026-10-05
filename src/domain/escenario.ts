@@ -88,15 +88,15 @@ export function resultadoOficial(c: Circunscripcion): ResultadoReparto {
 // Solo se codifican los valores editados; los códigos van sin ceros a la izquierda.
 
 export function codificarEscenario(c: Circunscripcion, e: Ediciones): string {
-  const p = new URLSearchParams();
-  p.set("c", c.codigoINE);
+  // Solo dígitos, «:» y «,»: no hace falta escapar y el enlace sigue siendo legible.
+  const p: string[] = [`c=${c.codigoINE}`];
   const votos = Object.entries(e.votos)
     .map(([codigo, v]) => `${Number.parseInt(codigo, 10)}:${v}`)
     .join(",");
-  if (votos) p.set("v", votos);
-  if (e.blanco !== undefined) p.set("b", String(e.blanco));
-  if (e.nulos !== undefined) p.set("n", String(e.nulos));
-  return p.toString();
+  if (votos) p.push(`v=${votos}`);
+  if (e.blanco !== undefined) p.push(`b=${e.blanco}`);
+  if (e.nulos !== undefined) p.push(`n=${e.nulos}`);
+  return p.join("&");
 }
 
 const entero = (s: string | null): number | undefined => {

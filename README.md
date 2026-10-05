@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Voto Útil
 
-## Getting Started
+Dos herramientas independientes para las elecciones generales:
 
-First, run the development server:
+- **Simulador de escaños**: aplica el reparto D'Hondt de la LOREG a los resultados oficiales del Congreso de 2023 (52 circunscripciones, 350 escaños) y permite modificar votos para explorar escenarios.
+- **Comparador de programas**: compara medidas por temas con cita literal, página, enlace y un índice de concreción de cinco criterios.
+
+No recomienda a quién votar, no tiene cuentas, no usa cookies ni analítica y no envía nada a ningún servidor: todos los cálculos se hacen en el navegador.
+
+Disponible en castellano, catalán, euskera y gallego (`/es`, `/ca`, `/eu`, `/gl`).
+
+## Stack
+
+- Next.js 16 (App Router) con `output: "export"`: el resultado es HTML estático.
+- React 19 con React Compiler.
+- Tailwind CSS 4 y componentes shadcn/ui (Radix).
+- next-intl para la internacionalización y next-themes para el tema claro/oscuro.
+- Vitest para las pruebas unitarias y de datos; Playwright para las pruebas de interfaz.
+
+## Requisitos
+
+- Node.js 20.9 o superior.
+- npm. El proyecto incluye un `.npmrc` que fija el registro público de npm.
+
+## Scripts
+
+| Comando | Qué hace |
+| --- | --- |
+| `npm run dev` | Servidor de desarrollo en `http://localhost:3000`. |
+| `npm run build` | Exporta el sitio estático a `out/`. |
+| `npm start` | Sirve `out/` en local (requiere haber hecho `build`). |
+| `npm run lint` | ESLint. |
+| `npm run typecheck` | Comprobación de tipos con TypeScript. |
+| `npm test` | Pruebas unitarias y de datos (Vitest). |
+| `npm run test:e2e` | Pruebas de interfaz (Playwright) contra el sitio exportado. La primera vez: `npx playwright install chromium`. |
+| `npm run check` | Lint, tipos, pruebas unitarias y build. |
+| `npm run data:import` | Regenera los datos electorales desde Infoelectoral. |
+
+## Datos electorales
+
+Los resultados están en `src/data/elecciones/congreso-2023-07/`:
+
+- `circunscripciones.json`: censo, votos en blanco, nulos y votos y escaños oficiales de cada candidatura en cada circunscripción.
+- `manifest.json`: fuente, URL del fichero original, fecha de descarga, SHA-256, formato y condiciones de reutilización.
+- `grupos.json`: agrupa las candidaturas por su cabecera nacional y asigna un color orientativo. Los colores siempre se muestran acompañados de las siglas.
+
+Para regenerarlos:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run data:import                     # descarga 02202307_TOTA.zip del Ministerio del Interior
+npm run data:import -- --zip ruta.zip   # usa un ZIP ya descargado
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+El script lee los ficheros de registro fijo 03 (candidaturas), 07 (datos por circunscripción) y 08 (votos y escaños por candidatura) y comprueba que salgan 52 circunscripciones, 350 escaños y que las sumas de votos cuadren. El ZIP se guarda en `data-raw/`, que no se versiona.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Las pruebas de `tests/unit/datos-electorales.test.ts` verifican que el motor reproduce el reparto oficial en todas las circunscripciones y la composición final del Congreso.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Reglas que aplica el motor (`src/domain/dhondt.ts`)
 
-## Learn More
+- Barrera del 3 % sobre los votos válidos de la circunscripción (candidaturas más blanco). Los nulos no cuentan.
+- Reparto D'Hondt con comparación exacta de cocientes, sin redondeos.
+- Empates: gana la candidatura con más votos totales; si también empatan en votos, se señala que la ley prevé un sorteo en lugar de resolverlo.
+- Ceuta y Melilla: un escaño para la candidatura más votada, sin barrera.
 
-To learn more about Next.js, take a look at the following resources:
+## Programas electorales
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Los datos están en `src/data/programas/`. **Ahora mismo son datos de ejemplo**: las medidas son ilustrativas, no proceden de ningún programa oficial y se muestran marcadas como «Ejemplo» y «Pendiente de fuente». La web lo avisa en el comparador y en la portada.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Cada medida real debe incluir:
 
-## Deploy on Vercel
+- la cita literal en el idioma original del programa y la página;
+- los cinco criterios del índice de concreción (diagnóstico, mecanismo, financiación, calendario e indicador);
+- el estado de revisión, quién la revisó y en qué fecha.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Cada partido incluye además la URL del programa, su fecha de publicación y la fecha de consulta. Si un dato no tiene fuente, no se rellena: se muestra como pendiente.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Internacionalización
+
+- Los textos están en `src/messages/{es,ca,eu,gl}.json`. Una prueba comprueba que los cuatro idiomas tienen las mismas claves y las mismas variables.
+- La raíz `/` elige idioma en el navegador según `navigator.languages`, sin cookies; si el idioma no está disponible, va a `/es`.
+- Cambiar de idioma conserva la página y el escenario del simulador.
+- Las citas de los programas se muestran siempre en su idioma original.
+
+Las traducciones al catalán, euskera y gallego necesitan la revisión de hablantes nativos antes de publicar.
+
+## Despliegue en Vercel (plan Hobby)
+
+1. Importa el repositorio en Vercel. Detecta Next.js y, al ser una exportación estática, publica `out/` sin funciones de servidor.
+2. Opcional: define `NEXT_PUBLIC_REPO_URL` (por ejemplo, `https://github.com/dcampina/voto-util`) para mostrar el enlace al código en el pie de página. Si no se define, el enlace no aparece.
+
+El sitio no necesita base de datos, variables secretas ni servicios externos.
+
+## Privacidad
+
+- Sin cookies, sin analítica, sin cuentas y sin peticiones a terceros. Hay una prueba de Playwright que lo comprueba.
+- El escenario del simulador solo vive en la URL para poder compartirlo.
+- El tema elegido (claro, oscuro o sistema) se guarda en el `localStorage` del navegador. Nunca sale del dispositivo.
+
+## Estructura
+
+```
+scripts/                 Importador de Infoelectoral
+src/app/[locale]/        Páginas: portada, simulador, programas, metodología
+src/components/          Interfaz (simulador, comparador, gráficos, shell)
+src/components/ui/       Componentes shadcn/ui
+src/data/                Resultados electorales y programas
+src/domain/              Lógica pura: D'Hondt, escenarios, índice de concreción
+src/i18n/                Configuración de next-intl
+src/messages/            Traducciones
+tests/unit/              Vitest
+tests/e2e/               Playwright
+```
+
+## Fuentes
+
+- Resultados: Ministerio del Interior, [Infoelectoral](https://infoelectoral.interior.gob.es/).
+- Normativa: [Ley Orgánica 5/1985, del Régimen Electoral General](https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672).

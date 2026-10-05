@@ -94,8 +94,8 @@ export function Resultados({
                 <TableHead className="text-right">{t("columns.share")}</TableHead>
                 <TableHead className="text-right">{t("columns.seats")}</TableHead>
                 <TableHead className="text-right">{t("columns.change")}</TableHead>
-                <TableHead className="text-right">{t("columns.next")}</TableHead>
-                <TableHead className="text-right">{t("columns.margin")}</TableHead>
+                <TableHead className="w-24 text-right leading-tight whitespace-normal">{t("columns.next")}</TableHead>
+                <TableHead className="w-24 text-right leading-tight whitespace-normal">{t("columns.margin")}</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>

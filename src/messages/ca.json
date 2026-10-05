@@ -59,7 +59,7 @@
     "about": {
       "independent": "Projecte personal, sense afiliació partidista, sense finançament i sense publicitat.",
       "data": "Els resultats provenen del Ministeri de l'Interior i es poden verificar a la pàgina de metodologia.",
-      "quotes": "Les mesures dels programes se citen literalment, amb pàgina i enllaç al document oficial.",
+      "quotes": "Cada mesura s'ha de citar literalment, amb pàgina i enllaç al document oficial. Les que encara no tenen font es marquen com a «pendent de font».",
       "privacy": "Els càlculs s'executen al teu navegador. No s'envia res a cap servidor.",
       "code": "El codi font és públic."
     },

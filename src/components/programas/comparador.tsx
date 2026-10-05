@@ -181,7 +181,7 @@ function Matriz({ categoria, partidos }: { categoria: Categoria; partidos: Parti
                 <span className="kicker">{t("subtopic")}</span>
               </th>
               {partidos.map((p) => (
-                <th key={p.id} scope="col" className="min-w-60 p-4 align-bottom">
+                <th key={p.id} scope="col" className="min-w-52 p-4 align-bottom">
                   <PartyChip label={p.siglas} color={p.color} />
                   <span className="mt-1 block text-xs font-normal text-muted-foreground">
                     {p.ambito === "estatal" ? t("stateWide") : t("regional")}

@@ -59,7 +59,7 @@
     "about": {
       "independent": "Proyecto personal, sin afiliación partidista, sin financiación y sin publicidad.",
       "data": "Los resultados proceden del Ministerio del Interior y se pueden verificar en la página de metodología.",
-      "quotes": "Las medidas de los programas se citan literalmente, con página y enlace al documento oficial.",
+      "quotes": "Cada medida debe citarse literalmente, con página y enlace al documento oficial. Las que aún no tienen fuente se marcan como «pendiente de fuente».",
       "privacy": "Los cálculos se ejecutan en tu navegador. No se envía nada a ningún servidor.",
       "code": "El código fuente es público."
     },
