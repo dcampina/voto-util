@@ -28,6 +28,8 @@ export interface GrupoNacional {
   etiqueta: string;
   /** Color orientativo; la interfaz siempre lo acompaña de siglas. */
   color: string;
+  /** Favicon del partido, si se ha podido obtener de su web oficial. */
+  icono?: string;
 }
 
 export interface Manifest {

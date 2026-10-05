@@ -35,6 +35,7 @@ Disponible en castellano, catalán, euskera y gallego (`/es`, `/ca`, `/eu`, `/gl
 | `npm run test:e2e` | Pruebas de interfaz (Playwright) contra el sitio exportado. La primera vez: `npx playwright install chromium`. |
 | `npm run check` | Lint, tipos, pruebas unitarias y build. |
 | `npm run data:import` | Regenera los datos electorales desde Infoelectoral. |
+| `npm run data:iconos` | Descarga de nuevo los favicons de los partidos. |
 
 ## Datos electorales
 
@@ -61,6 +62,18 @@ Las pruebas de `tests/unit/datos-electorales.test.ts` verifican que el motor rep
 - Reparto D'Hondt con comparación exacta de cocientes, sin redondeos.
 - Empates: gana la candidatura con más votos totales; si también empatan en votos, se señala que la ley prevé un sorteo en lugar de resolverlo.
 - Ceuta y Melilla: un escaño para la candidatura más votada, sin barrera.
+
+## Iconos de los partidos
+
+Cada candidatura muestra el favicon de la web oficial de su partido junto a las siglas.
+
+- `src/data/partidos/webs.json`: web oficial de cada partido (comprobada a mano) y su código de cabecera nacional en cada elección. Las federaciones y coaliciones usan el icono de su cabecera, igual que el color.
+- `src/data/partidos/iconos.json`: generado; origen, fecha, tamaño y SHA-256 de cada fichero.
+- `public/partidos/`: los ficheros, sin modificar. Se sirven desde el propio sitio, así que no hay peticiones a terceros.
+
+Para actualizarlos: `npm run data:iconos`. El script descarta los SVG y cualquier respuesta que no sea una imagen. Si una web bloquea la descarga, se puede fijar la URL del icono con `icono` y explicarlo en `notaIcono` (es el caso de VOX). Los partidos sin web verificable o sin icono propio se muestran solo con sus siglas.
+
+Los iconos son propiedad de cada partido y se usan solo para identificarlo.
 
 ## Programas electorales
 

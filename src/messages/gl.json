@@ -284,6 +284,18 @@
     },
     "dataTypeOfficial": "Oficial (definitivo)",
     "dataValidation": "Comprobación: o motor reproduce a repartición oficial nas 52 circunscricións e a composición final do Congreso (350 escanos).",
+    "iconsTitle": "Iconas dos partidos",
+    "iconsIntro": "Cada candidatura identifícase coas súas siglas e, cando foi posible, co favicon da súa web oficial, descargado o {date}.",
+    "icons": {
+      "selfHosted": "As iconas sérvense desde esta mesma web: abrir unha páxina non fai ningunha petición aos partidos nin a terceiros.",
+      "unmodified": "Os ficheiros gárdanse tal como os publica cada partido, sen retocar.",
+      "federations": "As federacións e coalicións (por exemplo, PSC ou SUMAR - ECP) usan a icona da súa cabeceira de candidatura no Congreso, igual que a cor.",
+      "missing": "Se un partido non ten unha web oficial verificable ou non publica unha icona propia, só se mostran as súas siglas.",
+      "rights": "As iconas son propiedade de cada partido e úsanse só para identificalo. Non implican apoio nin relación con esta web."
+    },
+    "iconsListLabel": "Partidos e orixe de cada icona",
+    "iconsSource": "Orixe da icona",
+    "iconsNone": "Sen icona propia",
     "indexTitle": "Índice de concreción",
     "indexIntro": "Cada medida puntúase con cinco criterios de si ou non sobre o texto literal do programa. A suma (de 0 a 5) dá o nivel:",
     "programsTitle": "Programas electorais",

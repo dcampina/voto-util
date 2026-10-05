@@ -1,11 +1,14 @@
 import { ExternalLinkIcon } from "lucide-react";
 import type { Metadata } from "next";
+import { domainToUnicode } from "node:url";
 import { getFormatter, getTranslations, setRequestLocale } from "next-intl/server";
 import { asLocale } from "@/i18n/locale";
 import { PageHeader } from "@/components/page-header";
 import { ConcrecionDots } from "@/components/programas/concrecion-dots";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { PartyIcon } from "@/components/party-chip";
 import { ELECCION_ACTUAL } from "@/data/elecciones";
+import { FECHA_ICONOS, ICONOS, WEBS_PARTIDOS } from "@/data/partidos";
 import { CRITERIOS, NIVELES } from "@/domain/programas";
 import { SITE } from "@/lib/site";
 
@@ -86,6 +89,40 @@ export default async function MetodologiaPage({ params }: PageProps<"/[locale]/m
             <dd>{m.fuente.condicionesReutilizacion}</dd>
           </dl>
           <p className="rounded-lg border-l-4 border-primary bg-muted/60 px-4 py-3 text-sm">{t("dataValidation")}</p>
+        </CardContent>
+      </Card>
+
+      <Card id="iconos">
+        <CardHeader>
+          <CardTitle className="text-lg">{t("iconsTitle")}</CardTitle>
+          <CardDescription>{t("iconsIntro", { date: format.dateTime(new Date(FECHA_ICONOS), { dateStyle: "long" }) })}</CardDescription>
+        </CardHeader>
+        <CardContent className="flex flex-col gap-5">
+          <Lista items={(["selfHosted", "unmodified", "federations", "missing", "rights"] as const).map((k) => t(`icons.${k}`))} />
+          <ul aria-label={t("iconsListLabel")} className="grid gap-x-6 gap-y-2.5 text-sm sm:grid-cols-2">
+            {Object.entries(WEBS_PARTIDOS).map(([id, p]) => {
+              const icono = ICONOS[id];
+              return (
+                <li key={id} className="flex min-w-0 items-start gap-2.5">
+                  {icono ? <PartyIcon src={icono.archivo} className="mt-0.5" /> : <span aria-hidden className="mt-0.5 size-4 shrink-0 rounded-[3px] border border-dashed" />}
+                  <span className="flex min-w-0 flex-col">
+                    <a href={p.web} target="_blank" rel="noopener noreferrer" className="truncate font-medium underline-offset-4 hover:underline">
+                      {p.nombre}
+                    </a>
+                    <span className="truncate text-xs text-muted-foreground">
+                      {icono ? (
+                        <>
+                          {t("iconsSource")}: <span className="font-mono">{domainToUnicode(new URL(icono.origen).hostname)}</span>
+                        </>
+                      ) : (
+                        t("iconsNone")
+                      )}
+                    </span>
+                  </span>
+                </li>
+              );
+            })}
+          </ul>
         </CardContent>
       </Card>
 

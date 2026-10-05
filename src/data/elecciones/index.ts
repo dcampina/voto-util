@@ -1,6 +1,7 @@
 import circunscripciones2023 from "./congreso-2023-07/circunscripciones.json";
 import grupos2023 from "./congreso-2023-07/grupos.json";
 import manifest2023 from "./congreso-2023-07/manifest.json";
+import { iconoCabecera } from "@/data/partidos";
 import type { Circunscripcion, Eleccion, GrupoNacional } from "./types";
 
 export type * from "./types";
@@ -23,5 +24,7 @@ export const ELECCION_ACTUAL = ELECCIONES["congreso-2023-07"];
 const GRIS = "#8A8A8A";
 
 export function grupoDe(eleccion: Eleccion, cabeceraNacional: string, siglas: string): GrupoNacional {
-  return eleccion.gruposNacionales[cabeceraNacional] ?? { etiqueta: siglas, color: GRIS };
+  const grupo = eleccion.gruposNacionales[cabeceraNacional] ?? { etiqueta: siglas, color: GRIS };
+  const icono = iconoCabecera(eleccion.id, cabeceraNacional);
+  return icono ? { ...grupo, icono } : grupo;
 }

@@ -68,7 +68,7 @@ export function EditorVotos({
               <li key={f.codigo} className="flex flex-col gap-2.5 border-b py-3 last:border-b-0">
                 <div className="flex items-center gap-3">
                   <div className="flex min-w-0 flex-1 flex-col gap-1">
-                    <PartyChip label={f.siglas} color={f.color} className="self-start" />
+                    <PartyChip label={f.siglas} color={f.color} icon={f.icono} className="self-start" />
                     <span className="truncate text-xs text-muted-foreground" title={f.denominacion}>
                       {f.denominacion}
                     </span>

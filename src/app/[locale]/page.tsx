@@ -4,7 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Hemicycle } from "@/components/charts/hemicycle";
 import { SeatBar } from "@/components/charts/seat-bar";
 import { ConcrecionDots } from "@/components/programas/concrecion-dots";
-import { PartyDot } from "@/components/party-chip";
+import { PartyDot, PartyIcon } from "@/components/party-chip";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -24,6 +24,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
     id: g.grupo,
     label: g.etiqueta,
     color: g.color,
+    icon: g.icono,
     seats: g.escanos,
   }));
   const resumen = grupos.map((g) => `${g.label} ${tc("seats", { count: g.seats })}`).join(", ");
@@ -82,6 +83,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
               {grupos.map((g) => (
                 <li key={g.id} className="flex items-center gap-1.5">
                   <PartyDot color={g.color} className="size-2" />
+                  <PartyIcon src={g.icon} className="size-3.5" />
                   <span className="truncate">{g.label}</span>
                   <span className="ml-auto font-semibold tabular">{g.seats}</span>
                 </li>

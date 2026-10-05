@@ -74,7 +74,7 @@ export function Cocientes({
                         )}
                       >
                         <TableCell className="tabular">{i + 1}</TableCell>
-                        <TableCell>{f && <PartyChip label={f.siglas} color={f.color} className={cn(!asignado && "opacity-60")} />}</TableCell>
+                        <TableCell>{f && <PartyChip label={f.siglas} color={f.color} icon={f.icono} className={cn(!asignado && "opacity-60")} />}</TableCell>
                         <TableCell className="text-right font-mono text-xs tabular">
                           {format.number(f?.votos ?? 0)} ÷ {q.divisor}
                         </TableCell>

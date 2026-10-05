@@ -3,7 +3,7 @@
 import { useTranslations } from "next-intl";
 import { useMemo } from "react";
 import { Hemicycle } from "@/components/charts/hemicycle";
-import { PartyDot } from "@/components/party-chip";
+import { PartyDot, PartyIcon } from "@/components/party-chip";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import type { Circunscripcion, Eleccion } from "@/data/elecciones/types";
 import type { ResultadoReparto } from "@/domain/dhondt";
@@ -53,6 +53,7 @@ export function EfectoNacional({
             return (
               <li key={g.grupo} className="flex items-center gap-2">
                 <PartyDot color={g.color} />
+                <PartyIcon src={g.icono} />
                 <span className="min-w-0 flex-1 truncate font-medium">{g.etiqueta}</span>
                 <span className="font-bold tabular">{g.escanos}</span>
                 <span

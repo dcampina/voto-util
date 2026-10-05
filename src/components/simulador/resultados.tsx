@@ -105,7 +105,7 @@ export function Resultados({
                   <TableRow key={f.codigo} className={cn(f.excluida && "text-muted-foreground")}>
                     <TableCell className="max-w-44">
                       <div className="flex flex-col items-start gap-1">
-                        <PartyChip label={f.siglas} color={f.color} className={cn(f.excluida && "opacity-60")} />
+                        <PartyChip label={f.siglas} color={f.color} icon={f.icono} className={cn(f.excluida && "opacity-60")} />
                         {f.excluida && (
                           <Badge variant="outline" className="text-[0.65rem]" title={t("belowThresholdLong", { count: n(resultado.votosBarrera) })}>
                             {t("belowThreshold")}

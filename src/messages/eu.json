@@ -284,6 +284,18 @@
     },
     "dataTypeOfficial": "Ofiziala (behin betikoa)",
     "dataValidation": "Egiaztapena: motorrak banaketa ofiziala erreproduzitzen du 52 barrutietan, baita Kongresuaren azken osaera ere (350 aulki).",
+    "iconsTitle": "Alderdien ikonoak",
+    "iconsIntro": "Hautagaitza bakoitza bere siglekin identifikatzen da eta, ahal izan denean, bere webgune ofizialeko faviconarekin. Data honetan deskargatu da: {date}.",
+    "icons": {
+      "selfHosted": "Ikonoak webgune honetatik bertatik zerbitzatzen dira: orri bat irekitzeak ez dio eskaerarik egiten alderdiei ez hirugarrenei.",
+      "unmodified": "Fitxategiak alderdi bakoitzak argitaratzen dituen bezala gordetzen dira, aldaketarik gabe.",
+      "federations": "Federazioek eta koalizioek (adibidez, PSC edo SUMAR - ECP) Kongresuko hautagaitza-buruaren ikonoa erabiltzen dute, kolorearekin gertatzen den bezala.",
+      "missing": "Alderdi batek webgune ofizial egiaztagarririk ez badu edo ikono propiorik argitaratzen ez badu, bere siglak bakarrik erakusten dira.",
+      "rights": "Ikonoak alderdi bakoitzarenak dira eta hura identifikatzeko soilik erabiltzen dira. Ez dute esan nahi webgune honekin babesik edo harremanik dagoenik."
+    },
+    "iconsListLabel": "Alderdiak eta ikono bakoitzaren jatorria",
+    "iconsSource": "Ikonoaren jatorria",
+    "iconsNone": "Ikono propiorik gabe",
     "indexTitle": "Zehaztasun-indizea",
     "indexIntro": "Neurri bakoitza bai edo ez motako bost irizpiderekin puntuatzen da, programaren hitzez hitzeko testuaren gainean. Baturak (0tik 5era) maila ematen du:",
     "programsTitle": "Hauteskunde-programak",

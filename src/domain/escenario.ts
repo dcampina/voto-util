@@ -1,3 +1,4 @@
+import { grupoDe } from "@/data/elecciones";
 import type { Circunscripcion, Eleccion } from "@/data/elecciones/types";
 import { repartir, type EntradaReparto, type ResultadoReparto } from "./dhondt";
 
@@ -37,6 +38,7 @@ export interface EscanosGrupo {
   grupo: string;
   etiqueta: string;
   color: string;
+  icono?: string;
   escanos: number;
   oficiales: number;
 }
@@ -55,11 +57,12 @@ export function agregadoNacional(
       const escanos =
         circ && circ.codigoINE === c.codigoINE ? (circ.resultado.escanos[x.codigo] ?? 0) : x.escanosOficiales;
       if (escanos === 0 && x.escanosOficiales === 0) continue;
-      const def = eleccion.gruposNacionales[x.cabeceraNacional];
+      const def = grupoDe(eleccion, x.cabeceraNacional, x.siglas);
       const g = grupos.get(x.cabeceraNacional) ?? {
         grupo: x.cabeceraNacional,
-        etiqueta: def?.etiqueta ?? x.siglas,
-        color: def?.color ?? "#8A8A8A",
+        etiqueta: def.etiqueta,
+        color: def.color,
+        icono: def.icono,
         escanos: 0,
         oficiales: 0,
       };

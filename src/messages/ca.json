@@ -284,6 +284,18 @@
     },
     "dataTypeOfficial": "Oficial (definitiu)",
     "dataValidation": "Comprovació: el motor reprodueix el repartiment oficial a les 52 circumscripcions i la composició final del Congrés (350 escons).",
+    "iconsTitle": "Icones dels partits",
+    "iconsIntro": "Cada candidatura s'identifica amb les seves sigles i, quan ha estat possible, amb el favicon del seu web oficial, descarregat el {date}.",
+    "icons": {
+      "selfHosted": "Les icones se serveixen des d'aquest mateix web: obrir una pàgina no fa cap petició als partits ni a tercers.",
+      "unmodified": "Els fitxers es desen tal com els publica cada partit, sense retocs.",
+      "federations": "Les federacions i coalicions (per exemple, PSC o SUMAR - ECP) fan servir la icona de la seva capçalera de candidatura al Congrés, igual que el color.",
+      "missing": "Si un partit no té un web oficial verificable o no publica una icona pròpia, només se'n mostren les sigles.",
+      "rights": "Les icones són propietat de cada partit i només s'utilitzen per identificar-lo. No impliquen suport ni relació amb aquest web."
+    },
+    "iconsListLabel": "Partits i origen de cada icona",
+    "iconsSource": "Origen de la icona",
+    "iconsNone": "Sense icona pròpia",
     "indexTitle": "Índex de concreció",
     "indexIntro": "Cada mesura es puntua amb cinc criteris de sí o no sobre el text literal del programa. La suma (de 0 a 5) dona el nivell:",
     "programsTitle": "Programes electorals",

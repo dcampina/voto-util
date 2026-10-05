@@ -15,6 +15,7 @@ import {
 import { useFormatter, useTranslations } from "next-intl";
 import { useMemo, useState } from "react";
 import { PartyChip } from "@/components/party-chip";
+import { iconoPartido } from "@/data/partidos";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -128,7 +129,7 @@ function Medias({ categoria, partidos }: { categoria: Categoria; partidos: Parti
               const valor = format.number(media, { maximumFractionDigits: 1, minimumFractionDigits: 1 });
               return (
                 <li key={p.id} className="grid grid-cols-[5.5rem_minmax(0,1fr)_3.5rem] items-center gap-3">
-                  <PartyChip label={p.siglas} color={p.color} className="justify-self-start" />
+                  <PartyChip label={p.siglas} color={p.color} icon={iconoPartido(p.id)} className="justify-self-start" />
                   <div
                     className="h-2.5 overflow-hidden rounded-full bg-muted"
                     role="meter"
@@ -182,7 +183,7 @@ function Matriz({ categoria, partidos }: { categoria: Categoria; partidos: Parti
               </th>
               {partidos.map((p) => (
                 <th key={p.id} scope="col" className="min-w-52 p-4 align-bottom">
-                  <PartyChip label={p.siglas} color={p.color} />
+                  <PartyChip label={p.siglas} color={p.color} icon={iconoPartido(p.id)} />
                   <span className="mt-1 block text-xs font-normal text-muted-foreground">
                     {p.ambito === "estatal" ? t("stateWide") : t("regional")}
                   </span>
@@ -225,7 +226,7 @@ function Matriz({ categoria, partidos }: { categoria: Categoria; partidos: Parti
                     key={p.id}
                     className={cn("rounded-lg border bg-card p-3", estado.tipo !== "medidas" && "flex items-center justify-between gap-3 py-2")}
                   >
-                    <PartyChip label={p.siglas} color={p.color} className={cn(estado.tipo === "medidas" && "mb-2")} />
+                    <PartyChip label={p.siglas} color={p.color} icon={iconoPartido(p.id)} className={cn(estado.tipo === "medidas" && "mb-2")} />
                     <Celda categoria={categoria} subtemaId={s.id} partido={p} />
                   </li>
                 );

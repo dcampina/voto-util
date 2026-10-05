@@ -105,6 +105,7 @@ function SimuladorEscenario({ inicial }: { inicial: ReturnType<typeof decodifica
           siglas: x.siglas,
           denominacion: x.denominacion,
           color: grupo.color,
+          icono: grupo.icono,
           votos,
           votosOficiales: x.votos,
           escanos: resultado.escanos[x.codigo] ?? 0,

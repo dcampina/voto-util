@@ -3,6 +3,7 @@ export interface Fila {
   siglas: string;
   denominacion: string;
   color: string;
+  icono?: string;
   votos: number;
   votosOficiales: number;
   escanos: number;
