@@ -28,6 +28,33 @@ test("el índice de concreción no depende solo del color", async ({ page }) => 
   await expect(page.getByLabel(/: (sí|no)$/).first()).toBeAttached();
 });
 
+test("la fila de partidos sigue visible al desplazar", async ({ page }) => {
+  const fila = page.locator("[data-party-row]");
+  const cuerpo = page.locator("[data-party-body]");
+  await expect(fila.locator("..")).toHaveCSS("position", "sticky");
+
+  const inicio = await fila.evaluate((el) => el.getBoundingClientRect().top + window.scrollY);
+  await page.evaluate((y) => window.scrollTo(0, y), inicio + 700);
+
+  const pegada = await fila.boundingBox();
+  expect(pegada).not.toBeNull();
+  expect(pegada!.y).toBeGreaterThanOrEqual(56);
+  expect(pegada!.y).toBeLessThan(80);
+
+  await cuerpo.evaluate((el) => {
+    el.scrollLeft = 208;
+  });
+  await expect.poll(() => fila.evaluate((el) => el.scrollLeft)).toBe(208);
+
+  const encabezados = await fila.locator("th").evaluateAll((els) => els.map((el) => Math.round(el.getBoundingClientRect().left)));
+  const celdas = await cuerpo
+    .locator("tbody tr")
+    .first()
+    .locator("th, td")
+    .evaluateAll((els) => els.map((el) => Math.round(el.getBoundingClientRect().left)));
+  expect(celdas).toEqual(encabezados);
+});
+
 test("cambiar de tema muestra otros subtemas", async ({ page }) => {
   await page.getByRole("tab", { name: "Sanidad" }).click();
   await expect(page.getByRole("tab", { name: "Sanidad" })).toHaveAttribute("aria-selected", "true");
