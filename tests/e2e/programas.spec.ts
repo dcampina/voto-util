@@ -4,8 +4,11 @@ test.beforeEach(async ({ page }) => {
   await page.goto("/es/programas");
 });
 
-test("señala las fuentes de terceros", async ({ page }) => {
+test("enlaza la metodología en lugar de repetir las fuentes", async ({ page }) => {
   await expect(page.getByText("Datos de ejemplo")).toHaveCount(0);
+  await expect(page.getByText("Fuentes", { exact: true })).toHaveCount(0);
+  await page.getByRole("link", { name: "Metodología y fuentes" }).click();
+  await expect(page).toHaveURL(/\/es\/metodologia$/);
   await expect(page.getByText("Fuentes", { exact: true })).toBeVisible();
   await expect(page.getByText("votaabascal.es").first()).toBeVisible();
   await expect(page.getByText("El Nacional").first()).toBeVisible();

@@ -128,7 +128,7 @@ export default async function MetodologiaPage({ params }: PageProps<"/[locale]/m
         </CardContent>
       </Card>
 
-      <Card id="indice">
+      <Card id="indice" className="scroll-mt-20">
         <CardHeader>
           <CardTitle className="text-lg">{t("indexTitle")}</CardTitle>
           <CardDescription>{t("indexIntro")}</CardDescription>

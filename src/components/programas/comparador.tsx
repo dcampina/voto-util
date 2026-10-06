@@ -58,29 +58,6 @@ export function Comparador({ datos }: { datos: DatosComparador }) {
     <Tabs value={categoria} onValueChange={setCategoria} className="flex flex-col gap-6">
       <div className="flex flex-col gap-4">
         <div className="flex min-w-0 flex-col gap-2">
-          <p className="kicker" id="temas">
-            {t("categories")}
-          </p>
-          <TabsList
-            aria-labelledby="temas"
-            className="h-auto w-full flex-wrap justify-start gap-x-1 gap-y-2 bg-transparent p-0 group-data-horizontal/tabs:h-auto"
-          >
-            {datos.categorias.map((c) => {
-              const Icon = ICONOS[c.icono] ?? LandmarkIcon;
-              return (
-                <TabsTrigger
-                  key={c.id}
-                  value={c.id}
-                  className="h-9 flex-none rounded-full border bg-card px-3.5 data-[state=active]:border-primary data-[state=active]:bg-primary data-[state=active]:text-primary-foreground"
-                >
-                  <Icon aria-hidden />
-                  {tcat(c.id as CategoriaKey)}
-                </TabsTrigger>
-              );
-            })}
-          </TabsList>
-        </div>
-        <div className="flex min-w-0 flex-col gap-2">
           <p className="kicker" id="candidaturas">
             {t("partyFilter")}
           </p>
@@ -108,6 +85,29 @@ export function Comparador({ datos }: { datos: DatosComparador }) {
               </button>
             ))}
           </div>
+        </div>
+        <div className="flex min-w-0 flex-col gap-2">
+          <p className="kicker" id="temas">
+            {t("categories")}
+          </p>
+          <TabsList
+            aria-labelledby="temas"
+            className="h-auto w-full flex-wrap justify-start gap-x-1 gap-y-2 bg-transparent p-0 group-data-horizontal/tabs:h-auto"
+          >
+            {datos.categorias.map((c) => {
+              const Icon = ICONOS[c.icono] ?? LandmarkIcon;
+              return (
+                <TabsTrigger
+                  key={c.id}
+                  value={c.id}
+                  className="h-9 flex-none rounded-full border bg-card px-3.5 data-[state=active]:border-primary data-[state=active]:bg-primary data-[state=active]:text-primary-foreground"
+                >
+                  <Icon aria-hidden />
+                  {tcat(c.id as CategoriaKey)}
+                </TabsTrigger>
+              );
+            })}
+          </TabsList>
         </div>
       </div>
 
