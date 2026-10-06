@@ -68,6 +68,7 @@ function CitaDialog({ medida, partido, resumen }: { medida: Medida; partido: Par
   const t = useTranslations("programs");
   const format = useFormatter();
   const fecha = (d: string) => format.dateTime(new Date(d), { dateStyle: "medium" });
+  const web = WEBS_PARTIDOS[partido.id]?.web;
 
   return (
     <Dialog>
@@ -99,10 +100,10 @@ function CitaDialog({ medida, partido, resumen }: { medida: Medida; partido: Par
             </EmptyHeader>
           </Empty>
         )}
-        {partido.programa?.origen === "tercera" && partido.programa.editor && WEBS_PARTIDOS[partido.id] && (
+        {partido.programa?.origen === "tercera" && partido.programa.editor && web && (
           <p className="text-xs text-pretty text-muted-foreground">
             {t("thirdPartyNote", {
-              web: new URL(WEBS_PARTIDOS[partido.id].web).hostname.replace(/^www\./, ""),
+              web: new URL(web).hostname.replace(/^www\./, ""),
               editor: partido.programa.editor,
             })}
           </p>
