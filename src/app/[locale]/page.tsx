@@ -79,9 +79,12 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
               <figcaption className="kicker -mt-1">{ts("majority", { count: 176 })}</figcaption>
             </figure>
             <SeatBar groups={grupos} total={350} label={resumen} />
-            <ul className="grid grid-cols-3 gap-x-3 gap-y-1 text-xs sm:grid-cols-4">
+            <ul className="grid grid-cols-3 gap-x-3 gap-y-1 overflow-hidden text-xs sm:grid-cols-4">
               {grupos.map((g) => (
-                <li key={g.id} className="flex items-center gap-1.5">
+                <li
+                  key={g.id}
+                  className="relative flex items-center gap-1.5 before:absolute before:-inset-y-1 before:-left-1.5 before:w-px before:-translate-x-1/2 before:bg-border before:content-[''] max-sm:nth-[3n+1]:before:hidden sm:nth-[4n+1]:before:hidden"
+                >
                   <PartyDot color={g.color} className="size-2" />
                   <PartyIcon src={g.icon} className="size-3.5" />
                   <span className="truncate">{g.label}</span>

@@ -14,12 +14,10 @@ import {
 } from "lucide-react";
 import { useFormatter, useTranslations } from "next-intl";
 import { useMemo, useState } from "react";
-import { PartyChip } from "@/components/party-chip";
+import { PartyChip, PartyIcon } from "@/components/party-chip";
 import { iconoPartido } from "@/data/partidos";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Field, FieldLabel } from "@/components/ui/field";
 import { estadoCelda, mediaCategoria, type Categoria, type DatosComparador, type PartidoPrograma } from "@/domain/programas";
 import type { CategoriaKey, SubtemaKey } from "@/i18n/locale";
 import { cn } from "@/lib/utils";
@@ -37,58 +35,80 @@ const ICONOS: Record<string, LucideIcon> = {
   landmark: LandmarkIcon,
 };
 
-const TODAS = "__todas";
+const pastilla =
+  "inline-flex h-9 shrink-0 items-center gap-1.5 rounded-full border bg-card px-3.5 text-sm font-medium whitespace-nowrap transition-colors hover:bg-muted focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-1 focus-visible:outline-ring aria-pressed:border-primary aria-pressed:bg-primary aria-pressed:text-primary-foreground aria-pressed:hover:bg-primary";
 
 export function Comparador({ datos }: { datos: DatosComparador }) {
   const t = useTranslations("programs");
   const tcat = useTranslations("categories");
   const [categoria, setCategoria] = useState(datos.categorias[0].id);
-  const [filtro, setFiltro] = useState(TODAS);
-  const partidos = filtro === TODAS ? datos.partidos : datos.partidos.filter((p) => p.id === filtro);
+  const [seleccion, setSeleccion] = useState<string[] | null>(null);
+  const partidos = seleccion === null ? datos.partidos : datos.partidos.filter((p) => seleccion.includes(p.id));
+
+  function alternarPartido(id: string) {
+    setSeleccion((actual) => {
+      if (actual === null) return [id];
+      const siguiente = actual.includes(id) ? actual.filter((x) => x !== id) : [...actual, id];
+      if (siguiente.length === 0 || siguiente.length === datos.partidos.length) return null;
+      return siguiente;
+    });
+  }
 
   return (
     <Tabs value={categoria} onValueChange={setCategoria} className="flex flex-col gap-6">
-      <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+      <div className="flex flex-col gap-4">
         <div className="flex min-w-0 flex-col gap-2">
           <p className="kicker" id="temas">
             {t("categories")}
           </p>
-          <div className="-mx-4 overflow-x-auto px-4 pb-1 sm:mx-0 sm:px-0">
-            <TabsList aria-labelledby="temas" className="h-auto w-max flex-nowrap gap-1 bg-transparent p-0">
-              {datos.categorias.map((c) => {
-                const Icon = ICONOS[c.icono] ?? LandmarkIcon;
-                return (
-                  <TabsTrigger
-                    key={c.id}
-                    value={c.id}
-                    className="h-9 flex-none rounded-full border bg-card px-3.5 data-[state=active]:border-primary data-[state=active]:bg-primary data-[state=active]:text-primary-foreground"
-                  >
-                    <Icon aria-hidden />
-                    {tcat(c.id as CategoriaKey)}
-                  </TabsTrigger>
-                );
-              })}
-            </TabsList>
+          <TabsList
+            aria-labelledby="temas"
+            className="h-auto w-full flex-wrap justify-start gap-x-1 gap-y-2 bg-transparent p-0 group-data-horizontal/tabs:h-auto"
+          >
+            {datos.categorias.map((c) => {
+              const Icon = ICONOS[c.icono] ?? LandmarkIcon;
+              return (
+                <TabsTrigger
+                  key={c.id}
+                  value={c.id}
+                  className="h-9 flex-none rounded-full border bg-card px-3.5 data-[state=active]:border-primary data-[state=active]:bg-primary data-[state=active]:text-primary-foreground"
+                >
+                  <Icon aria-hidden />
+                  {tcat(c.id as CategoriaKey)}
+                </TabsTrigger>
+              );
+            })}
+          </TabsList>
+        </div>
+        <div className="flex min-w-0 flex-col gap-2">
+          <p className="kicker" id="candidaturas">
+            {t("partyFilter")}
+          </p>
+          <div role="group" aria-labelledby="candidaturas" className="flex flex-wrap gap-x-1 gap-y-2">
+            <button
+              type="button"
+              className={pastilla}
+              aria-pressed={seleccion === null}
+              aria-label={t("allParties")}
+              onClick={() => setSeleccion(null)}
+            >
+              {t("allPartiesShort")}
+            </button>
+            {datos.partidos.map((p) => (
+              <button
+                key={p.id}
+                type="button"
+                className={pastilla}
+                aria-pressed={seleccion?.includes(p.id) ?? false}
+                title={p.nombre}
+                onClick={() => alternarPartido(p.id)}
+              >
+                <PartyIcon src={iconoPartido(p.id)} className="size-3.5" />
+                {p.siglas}
+              </button>
+            ))}
           </div>
         </div>
-        <Field className="lg:w-64">
-          <FieldLabel htmlFor="filtro-partido">{t("partyFilter")}</FieldLabel>
-          <Select value={filtro} onValueChange={setFiltro}>
-            <SelectTrigger id="filtro-partido" className="w-full bg-card">
-              <SelectValue />
-            </SelectTrigger>
-            <SelectContent position="popper">
-              <SelectGroup>
-                <SelectItem value={TODAS}>{t("allParties")}</SelectItem>
-                {datos.partidos.map((p) => (
-                  <SelectItem key={p.id} value={p.id}>
-                    {p.siglas}
-                  </SelectItem>
-                ))}
-              </SelectGroup>
-            </SelectContent>
-          </Select>
-        </Field>
       </div>
 
       {datos.categorias.map((c) => (
