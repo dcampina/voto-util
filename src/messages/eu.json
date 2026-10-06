@@ -52,6 +52,7 @@
     "programsKicker": "2. tresna",
     "programsTitle": "Programen alderatzailea",
     "programsText": "Alderatu hautagaitza bakoitzaren neurriak gaika, hitzez hitzeko aipuarekin eta proposamen bakoitzak zenbat xehetasun ematen duen neurtzen duen indize batekin.",
+    "programsBadge": "2023ko hauteskunde orokorrak",
     "programsCta": "Ireki alderatzailea",
     "congressTitle": "Hautetsontzietatik irtendako Kongresua",
     "congressCaption": "2023ko uztailaren 23ko hauteskunde orokorren ondorengo osaera ofiziala. Simulagailuaren abiapuntua da.",
@@ -59,7 +60,7 @@
     "about": {
       "independent": "Proiektu pertsonala, alderdi-afiliaziorik, finantzaketarik eta publizitaterik gabea.",
       "data": "Emaitzak Barne Ministerioarenak dira, eta metodologiaren orrian egiaztatu daitezke.",
-      "quotes": "Neurri bakoitza hitzez hitz aipatu behar da, orrialdearekin eta dokumentu ofizialerako estekarekin. Oraindik iturririk ez dutenak «iturriaren zain» gisa markatzen dira.",
+      "quotes": "Neurri bakoitza hitzez hitz aipatzen da, orrialdearekin eta dokumenturako estekarekin. Programa alderdiaren webgunean ez badago, hirugarren iturria adierazten da.",
       "privacy": "Kalkuluak zure nabigatzailean egiten dira. Ez da ezer bidaltzen inongo zerbitzarira.",
       "code": "Iturburu-kodea publikoa da."
     },
@@ -197,7 +198,13 @@
     "quoteLanguage": "Aipua programaren jatorrizko hizkuntzan.",
     "pages": "Orrialdea(k): {pages}",
     "openProgram": "Ireki programa ofiziala",
+    "openDocument": "Ireki dokumentua",
     "noProgram": "Programa ofiziala argitaratu gabe edo oraindik estekatu gabe.",
+    "sourcesTitle": "Iturriak",
+    "sourcesIntro": "2023ko uztailaren 23ko hauteskunde orokorretako programak. Neurri bakoitzak estekatutako dokumentuaren orrialdea aipatzen du.",
+    "officialSource": "Programa ofiziala",
+    "thirdParty": "Hirugarren iturria",
+    "thirdPartyNote": "Programa ez da aurkitu alderdiaren webgune ofizialean ({web}). Estekatutako dokumentua {editor} erakundeak argitaratzen du.",
     "publishedLabel": "Argitaratua",
     "consultedLabel": "Kontsultatua",
     "reviewLabel": "Berrikuspena",
@@ -302,6 +309,7 @@
     "programsTitle": "Hauteskunde-programak",
     "programs": {
       "source": "Iturri nagusia: hautagaitza bakoitzaren hauteskunde-programa ofiziala.",
+      "thirdParty": "Programa alderdiaren webgunean ez badago, hirugarren batek argitaratutako dokumentua estekatzen da eta hautagaitzaren ondoan adierazten da.",
       "quote": "Neurri bakoitzak jatorrizko hizkuntzako hitzez hitzeko aipua, orrialdea, dokumenturako esteka eta berrikuspen-egoera gordetzen ditu.",
       "coverage": "Estaldura: Kongresuan ordezkaritza duten estatu mailako alderdiak eta ordezkaritza edo lurralde-garrantzia duten autonomia mailako alderdi nagusiak. Zerrenda hauteskunde bakoitzean aldarrikatutako hautagaitzen araberakoa da.",
       "pending": "Iturri bat falta bada, «iturriaren zain» erakusten da, edukia suposizioekin bete beharrean."

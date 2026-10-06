@@ -4,6 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { asLocale } from "@/i18n/locale";
 import { PageHeader } from "@/components/page-header";
 import { Comparador } from "@/components/programas/comparador";
+import { FuentesProgramas } from "@/components/programas/fuentes";
 import { LeyendaConcrecion } from "@/components/programas/leyenda";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { PROGRAMAS } from "@/data/programas";
@@ -33,6 +34,7 @@ export default async function ProgramasPage({ params }: PageProps<"/[locale]/pro
         </Alert>
       )}
       <LeyendaConcrecion />
+      {!PROGRAMAS.esEjemplo && <FuentesProgramas datos={PROGRAMAS} />}
       <Comparador datos={PROGRAMAS} />
     </div>
   );

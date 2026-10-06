@@ -9,6 +9,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { ELECCION_ACTUAL } from "@/data/elecciones";
+import { PROGRAMAS } from "@/data/programas";
 import { agregadoNacional } from "@/domain/escenario";
 import { Link } from "@/i18n/navigation";
 import { SITE } from "@/lib/site";
@@ -126,7 +127,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
           </CardHeader>
           <CardContent className="mt-auto flex items-center gap-3">
             <ConcrecionDots total={3} />
-            <Badge variant="secondary">{tc("exampleData")}</Badge>
+            <Badge variant="secondary">{PROGRAMAS.esEjemplo ? tc("exampleData") : t("programsBadge")}</Badge>
           </CardContent>
           <CardFooter>
             <Button asChild variant="outline">

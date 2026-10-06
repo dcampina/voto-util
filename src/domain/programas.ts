@@ -87,11 +87,17 @@ export interface Categoria {
   subtemas: Subtema[];
 }
 
+export type OrigenPrograma = "oficial" | "tercera";
+
 export interface Programa {
   url: string;
   fechaPublicacion: string | null;
   fechaConsulta: string | null;
   idioma: string;
+  /** oficial: publicado por el partido. tercera: otra web, porque no está en la del partido. */
+  origen: OrigenPrograma;
+  /** Quién publica el documento cuando el origen no es la web del partido. */
+  editor: string | null;
 }
 
 /** Identidad de una candidatura dentro de una elección concreta. */

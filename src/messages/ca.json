@@ -52,6 +52,7 @@
     "programsKicker": "Eina 2",
     "programsTitle": "Comparador de programes",
     "programsText": "Compara les mesures de cada candidatura per temes, amb la cita literal i un índex que mesura quant detall ofereix cada proposta.",
+    "programsBadge": "Generals del 2023",
     "programsCta": "Obre el comparador",
     "congressTitle": "El Congrés que va sortir de les urnes",
     "congressCaption": "Composició oficial després de les eleccions generals del 23 de juliol de 2023. És el punt de partida del simulador.",
@@ -59,7 +60,7 @@
     "about": {
       "independent": "Projecte personal, sense afiliació partidista, sense finançament i sense publicitat.",
       "data": "Els resultats provenen del Ministeri de l'Interior i es poden verificar a la pàgina de metodologia.",
-      "quotes": "Cada mesura s'ha de citar literalment, amb pàgina i enllaç al document oficial. Les que encara no tenen font es marquen com a «pendent de font».",
+      "quotes": "Cada mesura se cita literalment, amb pàgina i enllaç al document. Si el programa no és al web del partit, s'indica la font de tercers.",
       "privacy": "Els càlculs s'executen al teu navegador. No s'envia res a cap servidor.",
       "code": "El codi font és públic."
     },
@@ -197,7 +198,13 @@
     "quoteLanguage": "Cita en l'idioma original del programa.",
     "pages": "Pàgina(es): {pages}",
     "openProgram": "Obre el programa oficial",
+    "openDocument": "Obre el document",
     "noProgram": "Programa oficial no publicat o encara sense enllaçar.",
+    "sourcesTitle": "Fonts",
+    "sourcesIntro": "Programes de les eleccions generals del 23 de juliol de 2023. Cada mesura cita la pàgina del document enllaçat.",
+    "officialSource": "Programa oficial",
+    "thirdParty": "Font de tercers",
+    "thirdPartyNote": "No s'ha localitzat el programa al web oficial del partit ({web}). El document enllaçat el publica {editor}.",
     "publishedLabel": "Publicat",
     "consultedLabel": "Consultat",
     "reviewLabel": "Revisió",
@@ -302,6 +309,7 @@
     "programsTitle": "Programes electorals",
     "programs": {
       "source": "Font prioritària: el programa electoral oficial de cada candidatura.",
+      "thirdParty": "Si el programa no és al web del partit, s'enllaça el document publicat per un tercer i s'indica al costat de la candidatura.",
       "quote": "Cada mesura desa la cita literal en l'idioma original, la pàgina, l'enllaç al document i l'estat de revisió.",
       "coverage": "Cobertura: partits estatals amb representació al Congrés i principals partits autonòmics amb representació o rellevància territorial. La llista depèn de les candidatures proclamades a cada elecció.",
       "pending": "Si falta una font, es mostra «pendent de font» en lloc de completar el contingut amb suposicions."

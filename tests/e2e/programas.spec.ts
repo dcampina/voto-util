@@ -4,17 +4,19 @@ test.beforeEach(async ({ page }) => {
   await page.goto("/es/programas");
 });
 
-test("avisa de que los datos son de ejemplo", async ({ page }) => {
-  await expect(page.getByText("Datos de ejemplo").first()).toBeVisible();
-  await expect(page.getByText("Pendiente de fuente").first()).toBeVisible();
+test("señala las fuentes de terceros", async ({ page }) => {
+  await expect(page.getByText("Datos de ejemplo")).toHaveCount(0);
+  await expect(page.getByText("Fuentes", { exact: true })).toBeVisible();
+  await expect(page.getByText("votaabascal.es").first()).toBeVisible();
+  await expect(page.getByText("El Nacional").first()).toBeVisible();
 });
 
-test("abrir una cita muestra que la fuente está pendiente y se cierra con Escape", async ({ page }) => {
+test("abrir una cita muestra el texto y se cierra con Escape", async ({ page }) => {
   const boton = page.getByRole("button", { name: "Ver cita y fuente" }).first();
   await boton.click();
   const dialogo = page.getByRole("dialog");
   await expect(dialogo).toBeVisible();
-  await expect(dialogo).toContainText("Todavía no se ha transcrito la cita literal");
+  await expect(dialogo.locator("blockquote")).not.toBeEmpty();
 
   await page.keyboard.press("Escape");
   await expect(dialogo).toBeHidden();
@@ -29,5 +31,5 @@ test("el índice de concreción no depende solo del color", async ({ page }) => 
 test("cambiar de tema muestra otros subtemas", async ({ page }) => {
   await page.getByRole("tab", { name: "Sanidad" }).click();
   await expect(page.getByRole("tab", { name: "Sanidad" })).toHaveAttribute("aria-selected", "true");
-  await expect(page.getByText("Sin datos todavía").first()).toBeVisible();
+  await expect(page.getByText("Atención primaria").first()).toBeVisible();
 });

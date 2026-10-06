@@ -100,9 +100,14 @@ describe("datos de programas", () => {
     }
   });
 
-  it("calcula medias por categoría ignorando celdas sin datos", () => {
-    const vivienda = PROGRAMAS.categorias.find((c) => c.id === "vivienda")!;
-    expect(mediaCategoria(vivienda, "sumar")).toBe(5);
-    expect(mediaCategoria(vivienda, "bng")).toBeNull();
+  it("calcula medias por categoría solo con medidas registradas", () => {
+    for (const categoria of PROGRAMAS.categorias) {
+      for (const partido of PROGRAMAS.partidos) {
+        const hayMedidas = categoria.subtemas.some((s) => estadoCelda(s, partido.id).tipo === "medidas");
+        const media = mediaCategoria(categoria, partido.id);
+        if (hayMedidas) expect(media).not.toBeNull();
+        else expect(media).toBeNull();
+      }
+    }
   });
 });

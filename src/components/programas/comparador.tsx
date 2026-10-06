@@ -13,7 +13,7 @@ import {
   type LucideIcon,
 } from "lucide-react";
 import { useFormatter, useTranslations } from "next-intl";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { PartyChip, PartyIcon } from "@/components/party-chip";
 import { iconoPartido } from "@/data/partidos";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -187,46 +187,116 @@ function Celda({ categoria, subtemaId, partido, compact }: { categoria: Categori
   );
 }
 
-/** Escritorio: tabla subtema × candidatura. Móvil: un bloque por subtema con tarjetas por candidatura. */
+/** Primera columna (w-56) y mínimo de cada candidatura (min-w-52): las dos tablas comparten el mismo ancho. */
+const ANCHO_TEMA = "14rem";
+const ANCHO_PARTIDO = "13rem";
+
+function anchoTabla(numPartidos: number) {
+  return `calc(${ANCHO_TEMA} + ${numPartidos} * ${ANCHO_PARTIDO})`;
+}
+
+function Columnas({ partidos }: { partidos: PartidoPrograma[] }) {
+  return (
+    <colgroup>
+      <col style={{ width: ANCHO_TEMA }} />
+      {partidos.map((p) => (
+        <col key={p.id} />
+      ))}
+    </colgroup>
+  );
+}
+
+function enlazarScroll(origen: HTMLDivElement, destino: HTMLDivElement | null) {
+  if (!destino || destino.scrollLeft === origen.scrollLeft) return;
+  destino.scrollLeft = origen.scrollLeft;
+}
+
+/** Escritorio: tabla subtema × candidatura, con la fila de partidos fija al desplazar. Móvil: un bloque por subtema. */
 function Matriz({ categoria, partidos }: { categoria: Categoria; partidos: PartidoPrograma[] }) {
   const t = useTranslations("programs");
   const tsub = useTranslations("subtopics");
+  const cabeceraRef = useRef<HTMLDivElement>(null);
+  const cuerpoRef = useRef<HTMLDivElement>(null);
+  const firmaPartidos = partidos.map((p) => p.id).join("\0");
+  const ancho = anchoTabla(partidos.length);
+
+  useEffect(() => {
+    const cuerpo = cuerpoRef.current;
+    const cabecera = cabeceraRef.current;
+    if (!cuerpo || !cabecera) return;
+    cuerpo.scrollLeft = 0;
+    cabecera.scrollLeft = 0;
+  }, [firmaPartidos, categoria.id]);
 
   return (
     <>
-      <div role="region" aria-label={t("title")} tabIndex={0} className="hidden overflow-x-auto rounded-xl border bg-card md:block">
-        <table className="w-full border-collapse text-left text-sm">
-          <thead>
-            <tr className="border-b">
-              <th scope="col" className="sticky left-0 z-10 w-56 min-w-56 bg-card p-4 align-bottom">
-                <span className="kicker">{t("subtopic")}</span>
-              </th>
-              {partidos.map((p) => (
-                <th key={p.id} scope="col" className="min-w-52 p-4 align-bottom">
-                  <PartyChip label={p.siglas} color={p.color} icon={iconoPartido(p.id)} />
-                  <span className="mt-1 block text-xs font-normal text-muted-foreground">
-                    {p.ambito === "estatal" ? t("stateWide") : t("regional")}
-                  </span>
-                </th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {categoria.subtemas.map((s) => (
-              <tr key={s.id} className="border-b last:border-b-0">
-                <th scope="row" className="sticky left-0 z-10 bg-card p-4 align-top font-normal shadow-[1px_0_0_var(--border)]">
-                  <span className="block font-semibold">{tsub(`${s.id as SubtemaKey}.name`)}</span>
-                  <span className="mt-1 block text-xs text-muted-foreground">{tsub(`${s.id as SubtemaKey}.description`)}</span>
-                </th>
+      <div data-party-matrix className="hidden md:block">
+        <div className="sticky top-[calc(3.5rem+1px)] z-30">
+          <div
+            ref={cabeceraRef}
+            data-party-row
+            aria-hidden="true"
+            className="overflow-x-auto rounded-t-xl border bg-card [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+            onScroll={(e) => enlazarScroll(e.currentTarget, cuerpoRef.current)}
+          >
+            <table className="table-fixed border-collapse text-left text-sm" style={{ width: "100%", minWidth: ancho }}>
+              <Columnas partidos={partidos} />
+              <thead>
+                <tr>
+                  <th scope="col" className="sticky left-0 z-10 bg-card p-4 align-bottom shadow-[1px_0_0_var(--border)]">
+                    <span className="kicker">{t("subtopic")}</span>
+                  </th>
+                  {partidos.map((p) => (
+                    <th key={p.id} scope="col" className="bg-card p-4 align-bottom">
+                      <PartyChip label={p.siglas} color={p.color} icon={iconoPartido(p.id)} />
+                      <span className="mt-1 block text-xs font-normal text-muted-foreground">
+                        {p.ambito === "estatal" ? t("stateWide") : t("regional")}
+                      </span>
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+            </table>
+          </div>
+        </div>
+        <div
+          ref={cuerpoRef}
+          data-party-body
+          role="region"
+          aria-label={t("title")}
+          tabIndex={0}
+          className="relative z-0 overflow-x-auto rounded-b-xl border border-t-0 bg-card"
+          onScroll={(e) => enlazarScroll(e.currentTarget, cabeceraRef.current)}
+        >
+          <table className="table-fixed border-collapse text-left text-sm" style={{ width: "100%", minWidth: ancho }}>
+            <Columnas partidos={partidos} />
+            <thead className="sr-only">
+              <tr>
+                <th scope="col">{t("subtopic")}</th>
                 {partidos.map((p) => (
-                  <td key={p.id} className="p-4 align-top">
-                    <Celda categoria={categoria} subtemaId={s.id} partido={p} compact />
-                  </td>
+                  <th key={p.id} scope="col">
+                    {p.siglas} {p.ambito === "estatal" ? t("stateWide") : t("regional")}
+                  </th>
                 ))}
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {categoria.subtemas.map((s) => (
+                <tr key={s.id} className="border-b last:border-b-0">
+                  <th scope="row" className="sticky left-0 z-10 bg-card p-4 align-top font-normal shadow-[1px_0_0_var(--border)]">
+                    <span className="block font-semibold">{tsub(`${s.id as SubtemaKey}.name`)}</span>
+                    <span className="mt-1 block text-xs text-muted-foreground">{tsub(`${s.id as SubtemaKey}.description`)}</span>
+                  </th>
+                  {partidos.map((p) => (
+                    <td key={p.id} className="p-4 align-top">
+                      <Celda categoria={categoria} subtemaId={s.id} partido={p} compact />
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </div>
 
       <div className="flex flex-col gap-6 md:hidden">

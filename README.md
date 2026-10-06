@@ -77,15 +77,15 @@ Los iconos son propiedad de cada partido y se usan solo para identificarlo.
 
 ## Programas electorales
 
-Los datos están en `src/data/programas/`. **Ahora mismo son datos de ejemplo**: las medidas son ilustrativas, no proceden de ningún programa oficial y se muestran marcadas como «Ejemplo» y «Pendiente de fuente». La web lo avisa en el comparador y en la portada.
+Los datos están en `src/data/programas/`. El comparador publicado usa los programas de las elecciones generales del 23 de julio de 2023.
 
-Cada medida real debe incluir:
+Cada medida incluye:
 
 - la cita literal en el idioma original del programa y la página;
 - los cinco criterios del índice de concreción (diagnóstico, mecanismo, financiación, calendario e indicador);
 - el estado de revisión, quién la revisó y en qué fecha.
 
-Cada partido incluye además la URL del programa, su fecha de publicación y la fecha de consulta. Si un dato no tiene fuente, no se rellena: se muestra como pendiente.
+Cada partido incluye además la URL del programa, su fecha de publicación y la fecha de consulta. Si el PDF no está en la web del partido, el origen queda marcado como fuente de terceros (es el caso de VOX, enlazado desde votaabascal.es, y de Junts, enlazado desde El Nacional). Si un dato no tiene fuente, no se rellena: se muestra como pendiente.
 
 ## Internacionalización
 

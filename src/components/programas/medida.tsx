@@ -14,6 +14,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Empty, EmptyDescription, EmptyHeader, EmptyMedia, EmptyTitle } from "@/components/ui/empty";
+import { WEBS_PARTIDOS } from "@/data/partidos";
 import { CRITERIOS, calcularConcrecion, resumenEn, type Medida, type PartidoPrograma } from "@/domain/programas";
 import type { AppLocale } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
@@ -98,6 +99,14 @@ function CitaDialog({ medida, partido, resumen }: { medida: Medida; partido: Par
             </EmptyHeader>
           </Empty>
         )}
+        {partido.programa?.origen === "tercera" && partido.programa.editor && WEBS_PARTIDOS[partido.id] && (
+          <p className="text-xs text-pretty text-muted-foreground">
+            {t("thirdPartyNote", {
+              web: new URL(WEBS_PARTIDOS[partido.id].web).hostname.replace(/^www\./, ""),
+              editor: partido.programa.editor,
+            })}
+          </p>
+        )}
         <dl className="grid grid-cols-[auto_1fr] gap-x-3 gap-y-1 text-xs">
           <dt className="text-muted-foreground">{t("measureSummary")}</dt>
           <dd>{resumen}</dd>
@@ -125,7 +134,7 @@ function CitaDialog({ medida, partido, resumen }: { medida: Medida; partido: Par
           {partido.programa ? (
             <Button asChild variant="outline">
               <a href={partido.programa.url} target="_blank" rel="noopener noreferrer">
-                {t("openProgram")}
+                {t(partido.programa.origen === "tercera" ? "openDocument" : "openProgram")}
                 <ExternalLinkIcon data-icon="inline-end" />
               </a>
             </Button>

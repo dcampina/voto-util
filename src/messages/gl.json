@@ -52,6 +52,7 @@
     "programsKicker": "Ferramenta 2",
     "programsTitle": "Comparador de programas",
     "programsText": "Compara as medidas de cada candidatura por temas, coa cita literal e un índice que mide canto detalle ofrece cada proposta.",
+    "programsBadge": "Xerais de 2023",
     "programsCta": "Abrir o comparador",
     "congressTitle": "O Congreso que saíu das urnas",
     "congressCaption": "Composición oficial tras as eleccións xerais do 23 de xullo de 2023. É o punto de partida do simulador.",
@@ -59,7 +60,7 @@
     "about": {
       "independent": "Proxecto persoal, sen afiliación partidista, sen financiamento e sen publicidade.",
       "data": "Os resultados proceden do Ministerio do Interior e pódense verificar na páxina de metodoloxía.",
-      "quotes": "Cada medida debe citarse literalmente, con páxina e ligazón ao documento oficial. As que aínda non teñen fonte márcanse como «pendente de fonte».",
+      "quotes": "Cada medida cítase literalmente, con páxina e ligazón ao documento. Se o programa non está na web do partido, indícase a fonte de terceiros.",
       "privacy": "Os cálculos execútanse no teu navegador. Non se envía nada a ningún servidor.",
       "code": "O código fonte é público."
     },
@@ -197,7 +198,13 @@
     "quoteLanguage": "Cita no idioma orixinal do programa.",
     "pages": "Páxina(s): {pages}",
     "openProgram": "Abrir o programa oficial",
+    "openDocument": "Abrir o documento",
     "noProgram": "Programa oficial non publicado ou aínda sen ligar.",
+    "sourcesTitle": "Fontes",
+    "sourcesIntro": "Programas das eleccións xerais do 23 de xullo de 2023. Cada medida cita a páxina do documento ligado.",
+    "officialSource": "Programa oficial",
+    "thirdParty": "Fonte de terceiros",
+    "thirdPartyNote": "Non se localizou o programa na web oficial do partido ({web}). O documento ligado publícao {editor}.",
     "publishedLabel": "Publicado",
     "consultedLabel": "Consultado",
     "reviewLabel": "Revisión",
@@ -302,6 +309,7 @@
     "programsTitle": "Programas electorais",
     "programs": {
       "source": "Fonte prioritaria: o programa electoral oficial de cada candidatura.",
+      "thirdParty": "Se o programa non está na web do partido, lígase o documento publicado por un terceiro e indícase xunto á candidatura.",
       "quote": "Cada medida garda a cita literal no idioma orixinal, a páxina, a ligazón ao documento e o seu estado de revisión.",
       "coverage": "Cobertura: partidos estatais con representación no Congreso e principais partidos autonómicos con representación ou relevancia territorial. A lista depende das candidaturas proclamadas en cada elección.",
       "pending": "Se falta unha fonte, amósase «pendente de fonte» en lugar de completar o contido con suposicións."

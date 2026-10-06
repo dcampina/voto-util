@@ -5,9 +5,11 @@ import { getFormatter, getTranslations, setRequestLocale } from "next-intl/serve
 import { asLocale } from "@/i18n/locale";
 import { PageHeader } from "@/components/page-header";
 import { ConcrecionDots } from "@/components/programas/concrecion-dots";
+import { FuentesProgramas } from "@/components/programas/fuentes";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { PartyIcon } from "@/components/party-chip";
 import { ELECCION_ACTUAL } from "@/data/elecciones";
+import { PROGRAMAS } from "@/data/programas";
 import { FECHA_ICONOS, ICONOS, WEBS_PARTIDOS } from "@/data/partidos";
 import { CRITERIOS, NIVELES } from "@/domain/programas";
 import { SITE } from "@/lib/site";
@@ -162,7 +164,12 @@ export default async function MetodologiaPage({ params }: PageProps<"/[locale]/m
           <CardTitle className="text-lg">{t("programsTitle")}</CardTitle>
         </CardHeader>
         <CardContent>
-          <Lista items={(["source", "quote", "coverage", "pending"] as const).map((k) => t(`programs.${k}`))} />
+          <Lista items={(["source", "thirdParty", "quote", "coverage", "pending"] as const).map((k) => t(`programs.${k}`))} />
+          {!PROGRAMAS.esEjemplo && (
+            <div className="mt-6">
+              <FuentesProgramas datos={PROGRAMAS} />
+            </div>
+          )}
         </CardContent>
       </Card>
 
