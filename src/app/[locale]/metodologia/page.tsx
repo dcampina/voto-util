@@ -133,16 +133,17 @@ export default async function MetodologiaPage({ params }: PageProps<"/[locale]/m
           <CardTitle className="text-lg">{t("indexTitle")}</CardTitle>
           <CardDescription>{t("indexIntro")}</CardDescription>
         </CardHeader>
-        <CardContent className="grid gap-6 md:grid-cols-2">
-          <ol className="flex list-decimal flex-col gap-2 pl-5 text-sm marker:text-muted-foreground">
+        <CardContent className="flex flex-col gap-6">
+          <div className="grid gap-6 md:grid-cols-2">
+            <ol className="flex list-decimal flex-col gap-2 pl-5 text-sm marker:text-muted-foreground">
             {CRITERIOS.map((k) => (
               <li key={k}>
                 <strong className="font-semibold">{tp(`criteria.${k}`)}</strong>
                 <span className="text-muted-foreground"> — {tp(`criteriaHelp.${k}`)}</span>
               </li>
             ))}
-          </ol>
-          <div className="flex flex-col gap-3">
+            </ol>
+            <div className="flex flex-col gap-3">
             <ul className="flex flex-col gap-2">
               {NIVELES.map((n) => (
                 <li key={n} className="flex items-center gap-3 text-sm">
@@ -155,7 +156,9 @@ export default async function MetodologiaPage({ params }: PageProps<"/[locale]/m
             <p className="text-xs text-muted-foreground">
               <strong className="font-semibold text-foreground">{tp("notMeasuresTitle")}:</strong> {tp("notMeasures")}
             </p>
+            </div>
           </div>
+          <p className="text-sm text-muted-foreground">{t("fundingNote")}</p>
         </CardContent>
       </Card>
 

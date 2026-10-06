@@ -26,8 +26,17 @@ test("abrir una cita muestra el texto y se cierra con Escape", async ({ page }) 
   await expect(boton).toBeFocused();
 });
 
+test("una medida sin gasto no puntúa la financiación", async ({ page }) => {
+  const medida = page.getByRole("article").filter({
+    hasText: "Que las comunidades con competencia puedan regular los contratos de alquiler",
+  });
+  await expect(medida.getByText("No requiere financiación")).toBeVisible();
+  await expect(medida.getByRole("group", { name: /de 4,/ })).toBeVisible();
+  await expect(medida.getByLabel("Financiación: no")).toHaveCount(0);
+});
+
 test("el índice de concreción no depende solo del color", async ({ page }) => {
-  await expect(page.getByRole("group", { name: /Índice de concreción: \d de 5/ }).first()).toBeVisible();
+  await expect(page.getByRole("group", { name: /Índice de concreción: \d de \d/ }).first()).toBeVisible();
   await expect(page.getByLabel(/: (sí|no)$/).first()).toBeAttached();
 });
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { CheckIcon, ExternalLinkIcon, FileQuestionIcon, XIcon } from "lucide-react";
+import { CheckIcon, ExternalLinkIcon, FileQuestionIcon, MinusIcon, XIcon } from "lucide-react";
 import { useFormatter, useLocale, useTranslations } from "next-intl";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -23,7 +23,7 @@ import { ConcrecionDots } from "./concrecion-dots";
 export function MedidaCard({ medida, partido, compact }: { medida: Medida; partido: PartidoPrograma; compact?: boolean }) {
   const t = useTranslations("programs");
   const locale = useLocale() as AppLocale;
-  const c = calcularConcrecion(medida.criterios);
+  const c = calcularConcrecion(medida.criterios, medida.requiereFinanciacion);
   const nivel = t(`levels.${c.nivel}`);
 
   return (
@@ -33,13 +33,27 @@ export function MedidaCard({ medida, partido, compact }: { medida: Medida; parti
         {!medida.cita && <Badge variant="outline">{t("pendingSource")}</Badge>}
       </div>
       <p className={cn("leading-snug font-medium text-pretty", compact ? "text-sm" : "text-[0.95rem]")}>{resumenEn(medida, locale)}</p>
-      <div className="flex items-center gap-2" aria-label={t("scoreLong", { total: c.total, level: nivel })} role="group">
-        <ConcrecionDots total={c.total} />
-        <span className="text-xs font-semibold tabular">{t("score", { total: c.total })}</span>
+      <div className="flex items-center gap-2" aria-label={t("scoreLong", { total: c.total, max: c.maximo, level: nivel })} role="group">
+        <ConcrecionDots total={c.total} max={c.maximo} />
+        <span className="text-xs font-semibold tabular">{t("score", { total: c.total, max: c.maximo })}</span>
         <span className="text-xs text-muted-foreground">· {nivel}</span>
       </div>
       <ul className="flex flex-wrap gap-1">
         {CRITERIOS.map((k) => {
+          if (k === "financiacion" && medida.requiereFinanciacion === false) {
+            return (
+              <li key={k}>
+                <span
+                  title={t("fundingNotRequiredHelp")}
+                  aria-label={t("fundingNotRequiredHelp")}
+                  className="inline-flex h-5 items-center gap-0.5 rounded-[4px] bg-muted px-1.5 text-[0.68rem] font-medium text-muted-foreground"
+                >
+                  <MinusIcon aria-hidden className="size-3" />
+                  {t("fundingNotRequired")}
+                </span>
+              </li>
+            );
+          }
           const ok = medida.criterios[k];
           const nombre = t(`criteria.${k}`);
           return (

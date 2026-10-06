@@ -7,6 +7,7 @@ import {
   mediaCategoria,
   nivelDesdeMedia,
   nivelDesdeTotal,
+  puntuacionSobreCinco,
   type Criterios,
 } from "@/domain/programas";
 import es from "@/messages/es.json";
@@ -31,6 +32,25 @@ describe("índice de concreción", () => {
   it("rechaza puntuaciones fuera de rango", () => {
     expect(() => nivelDesdeTotal(6)).toThrow(RangeError);
     expect(() => nivelDesdeTotal(-1)).toThrow(RangeError);
+  });
+
+  it("omite la financiación cuando la medida no la requiere", () => {
+    const sinGasto = calcularConcrecion(
+      { diagnostico: true, mecanismo: true, financiacion: true, calendario: true, indicador: false },
+      false,
+    );
+    expect(sinGasto.total).toBe(3);
+    expect(sinGasto.maximo).toBe(4);
+    expect(sinGasto.nivel).toBe("desarrollada");
+    expect(puntuacionSobreCinco(sinGasto)).toBe(3.75);
+
+    const completa = calcularConcrecion(
+      { diagnostico: true, mecanismo: true, financiacion: false, calendario: true, indicador: true },
+      false,
+    );
+    expect(completa.total).toBe(4);
+    expect(completa.maximo).toBe(4);
+    expect(puntuacionSobreCinco(completa)).toBe(5);
   });
 
   it("las medias usan los mismos umbrales", () => {
@@ -97,6 +117,20 @@ describe("datos de programas", () => {
     for (const c of PROGRAMAS.categorias) {
       expect(es.categories).toHaveProperty(c.id);
       for (const s of c.subtemas) expect(es.subtopics).toHaveProperty(s.id);
+    }
+  });
+
+  it("la financiación solo se omite en las medidas que no la requieren", () => {
+    const sinFinanciacion = medidas.filter(({ m }) => m.requiereFinanciacion === false);
+    expect(sinFinanciacion.length).toBeGreaterThan(0);
+    for (const { m } of medidas) {
+      const c = calcularConcrecion(m.criterios, m.requiereFinanciacion);
+      if (m.requiereFinanciacion === false) {
+        expect(m.criterios.financiacion, m.id).toBe(false);
+        expect(c.maximo).toBe(4);
+      } else {
+        expect(c.maximo).toBe(5);
+      }
     }
   });
 

@@ -1,10 +1,10 @@
 import { cn } from "@/lib/utils";
 
-/** Cinco puntos: los rellenos indican criterios cumplidos. Monocromo para no sugerir valoración. */
-export function ConcrecionDots({ total, label, className }: { total: number; label?: string; className?: string }) {
+/** Puntos rellenos: criterios cumplidos. Son cuatro cuando la financiación no aplica. */
+export function ConcrecionDots({ total, max = 5, label, className }: { total: number; max?: number; label?: string; className?: string }) {
   return (
     <span role={label ? "img" : undefined} aria-label={label} aria-hidden={label ? undefined : true} className={cn("inline-flex gap-1", className)}>
-      {Array.from({ length: 5 }, (_, i) => (
+      {Array.from({ length: max }, (_, i) => (
         <span
           key={i}
           className={cn(

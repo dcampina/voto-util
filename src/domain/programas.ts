@@ -15,6 +15,8 @@ export type NivelConcrecion = (typeof NIVELES)[number];
 export interface Concrecion {
   criterios: Criterios;
   total: number;
+  /** Criterios que puntúan. Es 4 cuando la medida no requiere financiación. */
+  maximo: number;
   nivel: NivelConcrecion;
 }
 
@@ -28,9 +30,15 @@ export function nivelDesdeTotal(total: number): NivelConcrecion {
   return "detallada";
 }
 
-export function calcularConcrecion(criterios: Criterios): Concrecion {
-  const total = CRITERIOS.filter((c) => criterios[c]).length;
-  return { criterios, total, nivel: nivelDesdeTotal(total) };
+export function calcularConcrecion(criterios: Criterios, requiereFinanciacion = true): Concrecion {
+  const aplicables = requiereFinanciacion ? CRITERIOS : CRITERIOS.filter((c) => c !== "financiacion");
+  const total = aplicables.filter((c) => criterios[c]).length;
+  return { criterios, total, maximo: aplicables.length, nivel: nivelDesdeTotal(total) };
+}
+
+/** Lleva una puntuación con máximo 4 o 5 a la escala 0–5 de las medias. */
+export function puntuacionSobreCinco(concrecion: Pick<Concrecion, "total" | "maximo">): number {
+  return (concrecion.total / concrecion.maximo) * CRITERIOS.length;
 }
 
 /** Nivel para una media (0–5), usando los mismos umbrales redondeando a la baja. */
@@ -60,6 +68,11 @@ export interface Medida {
   /** null mientras no se haya transcrito la cita del programa oficial. */
   cita: Cita | null;
   criterios: Criterios;
+  /**
+   * false cuando la medida no comporta gasto público, ingreso ni fuente de financiación.
+   * En ese caso el criterio de financiación no entra en la puntuación. Si se omite, sí la requiere.
+   */
+  requiereFinanciacion?: boolean;
   revision: {
     estado: EstadoRevision;
     revisor: string | null;
@@ -132,11 +145,13 @@ export function estadoCelda(subtema: Subtema, partidoId: string): EstadoCelda {
   return { tipo: "medidas", medidas: pos.medidas };
 }
 
-/** Media del índice de las medidas de un partido en una categoría. */
+/** Media del índice (0–5) de las medidas de un partido en una categoría. */
 export function mediaCategoria(categoria: Categoria, partidoId: string): number | null {
   const totales = categoria.subtemas.flatMap((s) => {
     const e = estadoCelda(s, partidoId);
-    return e.tipo === "medidas" ? e.medidas.map((m) => calcularConcrecion(m.criterios).total) : [];
+    return e.tipo === "medidas"
+      ? e.medidas.map((m) => puntuacionSobreCinco(calcularConcrecion(m.criterios, m.requiereFinanciacion)))
+      : [];
   });
   if (totales.length === 0) return null;
   return totales.reduce((a, b) => a + b, 0) / totales.length;
