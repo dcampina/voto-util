@@ -223,7 +223,8 @@
     "notMeasuresTitle": "O que o índice non mide",
     "notMeasures": "Calidade, viabilidade xurídica ou económica, impacto real, coherencia con outras medidas nin preferencia política.",
     "stateWide": "Ámbito estatal",
-    "regional": "Ámbito autonómico"
+    "regional": "Ámbito autonómico",
+    "aiDisclaimer": "Esta comparación realizouse con modelos de intelixencia artificial (LLM). Por iso pode conter erros ou omitir puntos importantes dalgún dos programas. Recoméndase consultar as citas e o texto orixinal ligado."
   },
   "categories": {
     "vivienda": "Vivenda",
@@ -312,6 +313,7 @@
     "programs": {
       "source": "Fonte prioritaria: o programa electoral oficial de cada candidatura.",
       "thirdParty": "Se o programa non está na web do partido, lígase o documento publicado por un terceiro e indícase xunto á candidatura.",
+      "ai": "As medidas, os resumos e a súa asignación a cada subtema extraéronse con modelos de intelixencia artificial (LLM) a partir do texto publicado. O resultado pode conter erros ou omitir puntos importantes dalgún dos programas. Convén contrastar cada ficha coa cita literal e o documento orixinal ligado.",
       "quote": "Cada medida garda a cita literal no idioma orixinal, a páxina, a ligazón ao documento e o seu estado de revisión.",
       "coverage": "Cobertura: partidos estatais con representación no Congreso e principais partidos autonómicos con representación ou relevancia territorial. A lista depende das candidaturas proclamadas en cada elección.",
       "pending": "Se falta unha fonte, amósase «pendente de fonte» en lugar de completar o contido con suposicións."

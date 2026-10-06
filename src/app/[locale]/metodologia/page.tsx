@@ -167,7 +167,7 @@ export default async function MetodologiaPage({ params }: PageProps<"/[locale]/m
           <CardTitle className="text-lg">{t("programsTitle")}</CardTitle>
         </CardHeader>
         <CardContent>
-          <Lista items={(["source", "thirdParty", "quote", "coverage", "pending"] as const).map((k) => t(`programs.${k}`))} />
+          <Lista items={(["source", "thirdParty", "ai", "quote", "coverage", "pending"] as const).map((k) => t(`programs.${k}`))} />
           {!PROGRAMAS.esEjemplo && (
             <div className="mt-6">
               <FuentesProgramas datos={PROGRAMAS} />

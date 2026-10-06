@@ -223,7 +223,8 @@
     "notMeasuresTitle": "Indizeak neurtzen ez duena",
     "notMeasures": "Kalitatea, bideragarritasun juridikoa edo ekonomikoa, benetako eragina, beste neurriekiko koherentzia edo lehentasun politikoa.",
     "stateWide": "Estatu mailakoa",
-    "regional": "Autonomia mailakoa"
+    "regional": "Autonomia mailakoa",
+    "aiDisclaimer": "Konparazio hau adimen artifizialeko ereduekin (LLM) egin da. Horregatik, erroreak izan ditzake edo programa batzuen puntu garrantzitsuak alde batera utzi. Gomendatzen da aipuak eta estekatutako jatorrizko testua kontsultatzea."
   },
   "categories": {
     "vivienda": "Etxebizitza",
@@ -312,6 +313,7 @@
     "programs": {
       "source": "Iturri nagusia: hautagaitza bakoitzaren hauteskunde-programa ofiziala.",
       "thirdParty": "Programa alderdiaren webgunean ez badago, hirugarren batek argitaratutako dokumentua estekatzen da eta hautagaitzaren ondoan adierazten da.",
+      "ai": "Neurriak, laburpenak eta azpigai bakoitzari egindako esleipena adimen artifizialeko ereduekin (LLM) atera dira argitaratutako testutik. Emaitzak erroreak izan ditzake edo programa batzuen puntu garrantzitsuak alde batera utzi. Fitxa bakoitza hitzez hitzeko aipuarekin eta jatorrizko dokumenturako estekarekin kontrastatzea komeni da.",
       "quote": "Neurri bakoitzak jatorrizko hizkuntzako hitzez hitzeko aipua, orrialdea, dokumenturako esteka eta berrikuspen-egoera gordetzen ditu.",
       "coverage": "Estaldura: Kongresuan ordezkaritza duten estatu mailako alderdiak eta ordezkaritza edo lurralde-garrantzia duten autonomia mailako alderdi nagusiak. Zerrenda hauteskunde bakoitzean aldarrikatutako hautagaitzen araberakoa da.",
       "pending": "Iturri bat falta bada, «iturriaren zain» erakusten da, edukia suposizioekin bete beharrean."

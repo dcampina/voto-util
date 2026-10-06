@@ -12,6 +12,18 @@ test("enlaza la metodología en lugar de repetir las fuentes", async ({ page }) 
   await expect(page.getByText("Fuentes", { exact: true })).toBeVisible();
   await expect(page.getByText("votaabascal.es").first()).toBeVisible();
   await expect(page.getByText("El Nacional").first()).toBeVisible();
+  await expect(page.getByText("modelos de inteligencia artificial (LLM)")).toBeVisible();
+});
+
+test("avisa bajo la tabla de que la comparación usa modelos de lenguaje", async ({ page }) => {
+  const aviso = page.getByText("Esta comparación se ha realizado con modelos de inteligencia artificial");
+  const tabla = page.locator("[data-party-matrix]");
+  await expect(aviso).toBeVisible();
+  const avisoBox = await aviso.boundingBox();
+  const tablaBox = await tabla.boundingBox();
+  expect(avisoBox).not.toBeNull();
+  expect(tablaBox).not.toBeNull();
+  expect(avisoBox!.y).toBeGreaterThan(tablaBox!.y + tablaBox!.height - 1);
 });
 
 test("abrir una cita muestra el texto y se cierra con Escape", async ({ page }) => {

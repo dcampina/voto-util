@@ -223,7 +223,8 @@
     "notMeasuresTitle": "El que l'índex no mesura",
     "notMeasures": "Qualitat, viabilitat jurídica o econòmica, impacte real, coherència amb altres mesures ni preferència política.",
     "stateWide": "Àmbit estatal",
-    "regional": "Àmbit autonòmic"
+    "regional": "Àmbit autonòmic",
+    "aiDisclaimer": "Aquesta comparació s'ha fet amb models d'intel·ligència artificial (LLM). Per això pot contenir errors o ometre punts importants d'algun dels programes. Es recomana consultar les citacions i el text original enllaçat."
   },
   "categories": {
     "vivienda": "Habitatge",
@@ -312,6 +313,7 @@
     "programs": {
       "source": "Font prioritària: el programa electoral oficial de cada candidatura.",
       "thirdParty": "Si el programa no és al web del partit, s'enllaça el document publicat per un tercer i s'indica al costat de la candidatura.",
+      "ai": "Les mesures, els resums i l'assignació a cada subtema s'han extret amb models d'intel·ligència artificial (LLM) a partir del text publicat. El resultat pot contenir errors o ometre punts importants d'algun dels programes. Convé contrastar cada fitxa amb la cita literal i el document original enllaçat.",
       "quote": "Cada mesura desa la cita literal en l'idioma original, la pàgina, l'enllaç al document i l'estat de revisió.",
       "coverage": "Cobertura: partits estatals amb representació al Congrés i principals partits autonòmics amb representació o rellevància territorial. La llista depèn de les candidatures proclamades a cada elecció.",
       "pending": "Si falta una font, es mostra «pendent de font» en lloc de completar el contingut amb suposicions."

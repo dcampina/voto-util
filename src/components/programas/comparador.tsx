@@ -4,6 +4,7 @@ import {
   GlobeIcon,
   GraduationCapIcon,
   HouseIcon,
+  InfoIcon,
   LandmarkIcon,
   LeafIcon,
   ReceiptIcon,
@@ -115,6 +116,10 @@ export function Comparador({ datos }: { datos: DatosComparador }) {
         <TabsContent key={c.id} value={c.id} className="flex flex-col gap-6">
           <Medias categoria={c} partidos={partidos} />
           <Matriz categoria={c} partidos={partidos} />
+          <aside className="flex gap-3 rounded-lg border-l-4 border-primary bg-muted/60 px-4 py-3 text-sm">
+            <InfoIcon aria-hidden className="mt-0.5 size-4 shrink-0" />
+            <p>{t("aiDisclaimer")}</p>
+          </aside>
         </TabsContent>
       ))}
     </Tabs>
